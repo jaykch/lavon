@@ -1,0 +1,52 @@
+.navbar {
+    background: none;
+    border-left: 1px solid #fafafa;
+}
+
+.navbar .ant-menu {
+    background: none;
+    margin-top: 20vh;
+}
+
+.navbar .ant-menu-item {
+    color: #fafafa;
+}
+
+.navbar .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+     background: none;
+}
+
+/*Remove default styling*/
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+    content: none;
+}
+
+.ant-menu-item-active{
+    background: rgba(0, 0, 0, 0.51) !important;
+}
+
+.ant-menu-vertical .ant-menu-item-active::before, .ant-menu-vertical .ant-menu-item::before, .ant-menu-vertical-left .ant-menu-item::before, .ant-menu-vertical-right .ant-menu-item::before, .ant-menu-inline .ant-menu-item::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-right: 3px solid #fafafa;
+    -webkit-transform: scaleY(0.0001);
+    transform: scaleY(0.0001);
+    opacity: 0;
+    -webkit-transition: opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    content: '';
+}
+
+.ant-menu-inline .ant-menu-item-active::before, .ant-menu-inline .ant-menu-selected::before, .ant-menu-inline .ant-menu-item-selected::before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    opacity: 1;
+    -webkit-transition: opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}

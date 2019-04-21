@@ -1,0 +1,79 @@
+.home-banner {
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../media/images/banners/8.jpg") bottom no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fafafa;
+}
+
+.home-banner h1 {
+    /* Text styles */
+    line-height: 1.15;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: .25rem;
+    color: #fafafa;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+    text-rendering: optimizeLegibility;
+}
+
+.home-banner span.subtitle{
+    line-height: 1.68;
+    letter-spacing: .25rem;
+    font-size: 1rem;
+}
+
+.home-banner p {
+    text-align: justify;
+    word-break: normal;
+    line-height: 2.4;
+    margin: 20px 0 25px;
+}
+
+.home-banner .button {
+
+    /* Padding and margins */
+    padding: 0.7rem 1rem;
+    margin-top: 25px;
+
+    /* Text styles */
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+
+    /* Border styles */
+    border: 1px solid #fafafa;
+}
+
+.home-banner .banner-content{
+    padding: 7rem 4rem 2.5rem 2.5rem;
+    position: relative;
+}
+
+.home-banner .banner-content::after, .home-banner .banner-content::before{
+    content: "";
+    width: 1px;
+    background: #adadad;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    transition-duration: .5s;
+    transition-property: height;
+    transition-delay: .3s;
+}
+
+.home-banner .banner-content::before{
+    /*height: 50%;*/
+    /*top: 85%;*/
+    /*left: 0;*/
+}
