@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import {Icon, Layout, Menu} from "antd";
 
 import './Navbar.css';
@@ -18,26 +19,36 @@ class Navbar extends Component {
                        console.log(collapsed, type);
                    }}
                    style={{
-                       overflow: 'auto', height: '100vh', position: 'fixed', right: 0
+                       overflow: 'hidden', height: '100vh', position: 'fixed', right: 0
                    }}
             >
                 <div className="logo"/>
-                <Menu mode="inline" defaultSelectedKeys={['1']}>
-                    <Menu.Item key="1">
-                        <Icon type="user"/>
-                        <span className="nav-text">Home</span>
+                <Menu mode="inline" defaultSelectedKeys={['/']} defaultOpenKeys={['/']}
+                      // selectedKeys={[this.props.location.pathname]}
+                    >
+                    <Menu.Item key="/">
+                        <Link to="/">
+                            <Icon type="home" theme="filled"/>
+                            <span className="nav-text">Home</span>
+                        </Link>
                     </Menu.Item>
-                    <Menu.Item key="2">
-                        <Icon type="video-camera"/>
-                        <span className="nav-text">About Us</span>
+                    <Menu.Item key="/about-us">
+                        <Link to="/">
+                            <Icon type="idcard" theme="filled"/>
+                            <span className="nav-text">Life at Lavon</span>
+                        </Link>
                     </Menu.Item>
-                    <Menu.Item key="3">
-                        <Icon type="upload"/>
-                        <span className="nav-text">Contact Us</span>
+                    <Menu.Item key="/contact-us">
+                        <Link to="/">
+                            <Icon type="contacts" theme="filled"/>
+                            <span className="nav-text">Get Connected</span>
+                        </Link>
                     </Menu.Item>
-                    <Menu.Item key="4">
-                        <Icon type="upload"/>
-                        <span className="nav-text">Roadmap</span>
+                    <Menu.Item key="/roadmap">
+                        <Link to="/">
+                            <Icon type="build" theme="filled"/>
+                            <span className="nav-text">Our Roadmap</span>
+                        </Link>
                     </Menu.Item>
                 </Menu>
             </Sider>

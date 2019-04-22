@@ -1,7 +1,7 @@
 .home-banner {
     height: 80vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../media/images/banners/8.jpg") bottom no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../media/images/banners/8.jpg") bottom no-repeat fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -9,10 +9,15 @@
     color: #fafafa;
 }
 
-.home-banner h1 {
+.home-banner img{
+    width: 8rem;
+}
+
+.home-banner h1, .home-banner img {
     /* Text styles */
     line-height: 1.15;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 2.5rem;
     letter-spacing: .25rem;
     color: #fafafa;
@@ -63,7 +68,6 @@
     content: "";
     width: 1px;
     background: #adadad;
-    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -74,7 +78,7 @@
 }
 
 .home-banner .banner-content::before{
-    /*height: 50%;*/
-    /*top: 85%;*/
-    /*left: 0;*/
+    height: 75%;
+    top: 85%;
+    left: -70px;
 }

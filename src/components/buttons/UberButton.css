@@ -1,0 +1,29 @@
+.uber-button {
+    background: #000000;
+    padding: 16px;
+    color: #fafafa;
+    display: block;
+    max-width: 210px;
+    min-width: 150px;
+    text-align: center;
+
+    -webkit-box-shadow: 10px 9px 7px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 9px 7px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 9px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.uber-button .arrow {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.uber-button:hover{
+    color: #fafafa;
+}
+
+.uber-button:hover .arrow {
+    margin-left: 5px;
+}

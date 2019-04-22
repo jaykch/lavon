@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
-import {Row, Col} from 'antd';
-import './About.css';
+import {Col, Row} from "antd";
+import './Values.css';
 
-class AboutSnippet extends Component {
+class ValuesSnippet extends Component {
     render() {
         return (
-            <Row className="about-snippet">
-                <Col span={12} offset={5} className="snippet-content">
-                    <h1>About</h1>
-                    <span className="subtitle">We are a full-service Media & Marketing agency</span>
+            <Row className="values-snippet">
+                <Col span={7} offset={13} className="snippet-content">
+                    <h1>Who we are</h1>
+                    <span className="subtitle">Lorem ipsum dolor seti</span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -20,4 +20,4 @@ class AboutSnippet extends Component {
     }
 }
 
-export default AboutSnippet;
+export default ValuesSnippet;

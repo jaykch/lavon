@@ -1,28 +1,38 @@
 import React, {Component} from 'react';
+import {Row, Col, Card} from 'antd';
 import './Clients.css';
-import {Layout, Row, Col} from 'antd';
+import UberButton from "../buttons/UberButton";
 
-const {Content} = Layout;
-
-class Clients extends Component {
+class ClientsSnippet extends Component {
     render() {
         return (
-            <Content style={{margin: '0 16px'}} className="clients-snippet">
-                <Row>
-                    <Col span={14} className="snippet-content">
-                        <h1>Clients</h1>
-                        <span className="subtitle">Lorem ipsum dolor seti</span>
+            <Row className="clients-snippet">
+                <Col span={14} offset={4} className="snippet-content">
+                    <Card bordered={false}>
+                        <h1>Our Clients</h1>
+                        <span className="subtitle">Who we work with</span>
                         <hr/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    </Col>
-                </Row>
-            </Content>
+                        <div className="client-list">
+                            <span>EAGLE PIZZAS</span>
+                            <span>Conferro Auctions</span>
+                            <span>Muki Sports</span>
+                            <span>Yugen Technologies</span>
+                            <span>Murray Sam Holdings</span>
+                            <span>DYNAMECH ELECTRO POWER</span>
+                        </div>
+                        <blockquote>
+                            <p><em>"Lavon is everything you can ask for from an agency: experts, reliable, agile and
+                                with technology and knowledge that make the difficult easy. What would we do without
+                                them!"</em></p>
+                            <footer><cite>Dynopower Systems</cite>
+                            </footer>
+                        </blockquote>
+                        <UberButton to="/clients" text="Our clients"/>
+                    </Card>
+                </Col>
+            </Row>
         );
     }
 }
 
-export default Clients;
+export default ClientsSnippet;

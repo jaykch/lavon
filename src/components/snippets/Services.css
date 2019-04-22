@@ -1,0 +1,56 @@
+.services-snippet {
+    padding: 2rem 3rem 2rem;
+    margin: 2rem 0;
+    background: #f6f6f6  url("../../media/images/misc/city.svg") center 40% no-repeat;
+    background-size: 99%;
+}
+
+.services-snippet .snippet-content{
+    padding: 0 0 0 32px;
+}
+
+.services-snippet .button{
+    background: #000000;
+    padding: 16px;
+    display: block;
+    max-width: 210px;
+    text-align: center;
+
+    -webkit-box-shadow: 10px 9px 7px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 7px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 9px 7px -7px rgba(0,0,0,0.75);
+}
+
+.services-snippet .arrow{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.services-snippet .button:hover .arrow{
+    margin-left: 5px;
+}
+
+.services-snippet .ant-card-head-title{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.68;
+    letter-spacing: .15rem;
+    font-size: 1rem;
+}
+
+.services-snippet p{
+    line-height: 2;
+}
+
+.services-snippet .cards-container{
+    margin: 2rem 0;
+    display: flex;
+    flex: 0 0 33.333%;
+}
+
+.services-snippet .ant-card{
+    flex: 0 0 100%;
+}

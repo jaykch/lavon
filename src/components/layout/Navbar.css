@@ -1,6 +1,7 @@
 .navbar {
-    background: none;
+    background: rgba(0, 0, 0, 0.3);
     border-left: 1px solid #fafafa;
+    z-index: 3;
 }
 
 .navbar .ant-menu {
@@ -8,7 +9,7 @@
     margin-top: 20vh;
 }
 
-.navbar .ant-menu-item {
+.navbar .ant-menu-item a {
     color: #fafafa;
 }
 

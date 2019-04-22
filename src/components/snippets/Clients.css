@@ -1,16 +1,30 @@
-.clients-snippet .ant-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.clients-snippet{
+    padding: 2rem 3rem 2rem;
+    margin: 2rem 0;
+    background: #f6f6f6  url("../../media/images/misc/city2.svg") center 40% no-repeat;
+    background-size: 99%;
+}
+
+.clients-snippet .snippet-content{
     text-align: center;
+}
+.clients-snippet .ant-card{
+    /*background: none;*/
+}
+
+.clients-snippet .client-list span{
+    display: inline-block;
+    margin: .5rem 2rem;
+    text-transform: uppercase;
+    line-height: 1.68;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #757676;
 }
 
 .clients-snippet h1{
     color: inherit;
-}
-
-.clients-snippet .snippet-content{
-    padding: 4rem 0 3rem 0;
 }
 
 .clients-snippet p{
@@ -20,4 +34,9 @@
 .clients-snippet hr{
     border-color: rgba(173, 173, 173, 0.17);
     width: 50%;
+}
+
+.clients-snippet .uber-button{
+    max-width: 160px;
+    margin: auto;
 }
