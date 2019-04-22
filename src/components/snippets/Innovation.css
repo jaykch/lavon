@@ -1,0 +1,13 @@
+.innovation-snippet{
+    background: linear-gradient(rgba(139, 51, 57, 0.3), rgba(139, 51, 57, 0.6)), url("../../media/images/banners/3.jpg") bottom no-repeat fixed;
+    background-size: cover;
+    color: #fafafa;
+}
+
+.innovation-snippet h1{
+    color: inherit;
+}
+
+.innovation-snippet .snippet-content{
+    padding: 4rem 0 3rem 0;
+}

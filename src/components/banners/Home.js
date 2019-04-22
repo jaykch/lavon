@@ -12,7 +12,7 @@ class Home extends Component {
                 <div className="home-banner">
                     <Content style={{margin: '0 16px'}}>
                         <Row>
-                            <Col className="banner-content" span={13} offset={4}>
+                            <Col className="banner-content" span={12} offset={5}>
                                 <h1>LAVON</h1>
                                 <Typist><span className="subtitle">Concept to creation</span></Typist>
                                 <p>Opening in 2019, The Market Line is an expansive, bazaar-like marketplace running

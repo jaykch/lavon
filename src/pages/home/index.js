@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Typist from 'react-typist';
+import './Home.css';
 
 import Banner from "../../components/banners/Home"
 

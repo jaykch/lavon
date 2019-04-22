@@ -1,0 +1,33 @@
+#home{
+    color: #0a0a0a;
+}
+
+h1 {
+    /* Text styles */
+    line-height: 1.15;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: .25rem;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+    text-rendering: optimizeLegibility;
+}
+
+span.subtitle{
+    line-height: 1.68;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+}
+
+p {
+    text-align: justify;
+    word-break: normal;
+    line-height: 2.4;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+}

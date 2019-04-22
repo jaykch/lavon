@@ -1,0 +1,23 @@
+.clients-snippet .ant-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.clients-snippet h1{
+    color: inherit;
+}
+
+.clients-snippet .snippet-content{
+    padding: 4rem 0 3rem 0;
+}
+
+.clients-snippet p{
+    text-align: center;
+}
+
+.clients-snippet hr{
+    border-color: rgba(173, 173, 173, 0.17);
+    width: 50%;
+}

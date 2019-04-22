@@ -35,6 +35,7 @@
     word-break: normal;
     line-height: 2.4;
     margin: 20px 0 25px;
+    color: inherit;
 }
 
 .home-banner .button {
