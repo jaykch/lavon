@@ -32,8 +32,8 @@
 }
 
 .clients-snippet hr{
-    border-color: rgba(173, 173, 173, 0.17);
     width: 50%;
+    background-color: rgba(173, 173, 173, 0.27);
 }
 
 .clients-snippet .uber-button{

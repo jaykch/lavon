@@ -3,10 +3,14 @@ import {Link} from 'react-router-dom';
 import {Icon, Layout, Menu} from "antd";
 
 import './Navbar.css';
+import UberButton from "../buttons/UberButton";
 
 const {
     Sider,
 } = Layout;
+
+const SubMenu = Menu.SubMenu;
+const MenuItemGroup = Menu.ItemGroup;
 
 class Navbar extends Component {
     render() {
@@ -19,17 +23,27 @@ class Navbar extends Component {
                        console.log(collapsed, type);
                    }}
                    style={{
-                       overflow: 'hidden', height: '100vh', position: 'fixed', right: 0
+                       overflow: 'auto', height: '100vh', position: 'fixed', right: 0
                    }}
             >
                 <div className="logo"/>
-                <Menu mode="inline" defaultSelectedKeys={['/']} defaultOpenKeys={['/']}
+                <Menu mode="vertical" defaultSelectedKeys={['/']} defaultOpenKeys={['/']}
                       // selectedKeys={[this.props.location.pathname]}
                     >
                     <Menu.Item key="/">
                         <Link to="/">
                             <Icon type="home" theme="filled"/>
                             <span className="nav-text">Home</span>
+                        </Link>
+                    </Menu.Item>
+                    <SubMenu key="/services" title={<span><Icon type="mail" /><span>Our Services</span></span>}>
+                            <Menu.Item key="1">Option 1</Menu.Item>
+                            <Menu.Item key="2">Option 2</Menu.Item>
+                    </SubMenu>
+                    <Menu.Item key="/services">
+                        <Link to="/services">
+                            <Icon type="idcard" theme="filled"/>
+                            <span className="nav-text">Our Services</span>
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="/about-us">
@@ -51,6 +65,7 @@ class Navbar extends Component {
                         </Link>
                     </Menu.Item>
                 </Menu>
+                <UberButton to="/audit" text="Free Audit"/>
             </Sider>
         );
     }

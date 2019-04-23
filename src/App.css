@@ -2,6 +2,16 @@
   background: #fafafa;
 }
 
+hr{
+  border: 0;
+  height: 1px;
+  background-color: #919394;
+}
+
+.text-right{
+  text-align: right;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import './Home.css';
 
 import logo from '../../media/images/logos/logo-inverted.png';
+import PremiumButton from "../buttons/PremiumButton";
 
 class Home extends Component {
     render() {
@@ -20,7 +21,7 @@ class Home extends Component {
                                 that the founders bounced around and came to fruition on April 11th. Moving forward,
                                 the team has explored services that expand beyond industry standards by offering
                                 more for the right price. </p>
-                            <Link to="/contact-us" className="button">Get in touch </Link>
+                            <PremiumButton to="/contact-us" text="Get In Touch"/>
                         </Col>
                     </Row>
                 </div>

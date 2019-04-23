@@ -1,3 +1,89 @@
-.ant-layout-footer {
-    background: #fafafa;
+#footer {
+    background: #0a0a0a;
+    color: #fafafa;
+}
+
+#footer .logo{
+    display: flex;
+    align-items: center;
+}
+
+#footer .logo img {
+    /* Text styles */
+    height:2.8rem;
+    line-height: 1.15;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: .25rem;
+    color: #fafafa;
+
+    /* Margins */
+    margin: 3rem 0;
+
+    text-rendering: optimizeLegibility;
+}
+
+#footer .logo span{
+    line-height: 1.15;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    letter-spacing: .25rem;
+    display: block;
+     margin-left: 2rem
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 3rem;
+}
+
+#footer ul a {
+    color: #fafafa;
+    font-weight: lighter;
+    line-height: 2;
+    letter-spacing: .05rem;
+}
+
+#footer h2 {
+    color: #fafafa;
+    line-height: 1.15;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .25rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-rendering: optimizeLegibility;
+}
+
+#footer .premium-button{
+    margin: 1.4rem 0;
+    border: #fafafa solid 1px;
+}
+
+#footer .copyright {
+    font-weight: bolder;
+    font-size: .55rem;
+    line-height: 2.4;
+    letter-spacing: .05rem;
+}
+
+#footer a {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#footer .social-icons a {
+    color: #fafafa;
+    font-size: 1.2rem;
+    margin: .2rem;
+}
+
+#footer .social-icons a:hover, #footer ul a:hover {
+    opacity: 0.65;
 }

@@ -48,9 +48,10 @@
 .services-snippet .cards-container{
     margin: 2rem 0;
     display: flex;
-    flex: 0 0 33.333%;
+    flex-flow: row wrap;
 }
 
-.services-snippet .ant-card{
-    flex: 0 0 100%;
+.services-snippet .card-wrapper{
+    flex: 0 0 22%;
+    display: flex;
 }
