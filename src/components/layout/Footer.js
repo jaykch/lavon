@@ -40,7 +40,7 @@ class AppFooter extends Component {
                         <span>512-206-xxxx | 512-777-xxxx</span><br/><br/>
                         <span>Queen St, Melbourne </span><br/>
                         <span>VIC, Australia 3004</span>
-                        <PremiumButton to="#" text="Get A Quote"/>
+                        <PremiumButton to="/quotation" text="Get A Quote"/>
                     </Col>
                 </Row>
                 <hr/>

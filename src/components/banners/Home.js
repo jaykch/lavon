@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import Typist from 'react-typist';
 import {Row, Col} from 'antd';
-import {Link} from 'react-router-dom';
 import './Home.css';
 
 import logo from '../../media/images/logos/logo-inverted.png';
 import PremiumButton from "../buttons/PremiumButton";
 
-class Home extends Component {
+class HomeBanner extends Component {
     render() {
         return (
             <header>
@@ -30,4 +29,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default HomeBanner;

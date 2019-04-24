@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {Icon, Layout, Menu} from "antd";
+import { withRouter } from 'react-router-dom';
 
 import './Navbar.css';
 import UberButton from "../buttons/UberButton";
@@ -10,7 +11,7 @@ const {
 } = Layout;
 
 const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
+// const MenuItemGroup = Menu.ItemGroup;
 
 class Navbar extends Component {
     render() {
@@ -27,39 +28,53 @@ class Navbar extends Component {
                    }}
             >
                 <div className="logo"/>
-                <Menu mode="vertical" defaultSelectedKeys={['/']} defaultOpenKeys={['/']}
-                      // selectedKeys={[this.props.location.pathname]}
-                    >
+                <Menu theme="dark" mode="vertical" defaultSelectedKeys={['/']} defaultOpenKeys={['/']}
+                     selectedKeys={[this.props.location.pathname]}
+                >
                     <Menu.Item key="/">
                         <Link to="/">
                             <Icon type="home" theme="filled"/>
                             <span className="nav-text">Home</span>
                         </Link>
                     </Menu.Item>
-                    <SubMenu key="/services" title={<span><Icon type="mail" /><span>Our Services</span></span>}>
-                            <Menu.Item key="1">Option 1</Menu.Item>
-                            <Menu.Item key="2">Option 2</Menu.Item>
+                    <SubMenu key="/services"
+                             title={<Link to="/services">
+                                 <Icon type="idcard" theme="filled"/>
+                                 <span className="nav-text">Our Services</span>
+                             </Link>}>
+                        <Menu.Item key="/services/partnerships">
+                            <Link to="/services/partnerships">
+                                <Icon type="idcard" theme="filled"/>
+                                <span className="nav-text">Lavon Partnerships</span>
+                            </Link>
+                        </Menu.Item>
+                        <Menu.Item key="/services/restart">
+                            <Link to="/services/restart">
+                                <Icon type="idcard" theme="filled"/>
+                                <span className="nav-text">Lavon Restart</span>
+                            </Link>
+                        </Menu.Item>
+                        <Menu.Item key="/services/saver">
+                            <Link to="/services/saver">
+                                <Icon type="idcard" theme="filled"/>
+                                <span className="nav-text">Lavon Saver</span>
+                            </Link>
+                        </Menu.Item>
                     </SubMenu>
-                    <Menu.Item key="/services">
-                        <Link to="/services">
-                            <Icon type="idcard" theme="filled"/>
-                            <span className="nav-text">Our Services</span>
-                        </Link>
-                    </Menu.Item>
                     <Menu.Item key="/about-us">
-                        <Link to="/">
+                        <Link to="/about-us">
                             <Icon type="idcard" theme="filled"/>
                             <span className="nav-text">Life at Lavon</span>
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="/contact-us">
-                        <Link to="/">
+                        <Link to="/contact-us">
                             <Icon type="contacts" theme="filled"/>
                             <span className="nav-text">Get Connected</span>
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="/roadmap">
-                        <Link to="/">
+                        <Link to="/roadmap">
                             <Icon type="build" theme="filled"/>
                             <span className="nav-text">Our Roadmap</span>
                         </Link>
@@ -71,4 +86,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default withRouter(Navbar);

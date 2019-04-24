@@ -1,23 +1,21 @@
-.home-banner {
+.page-banner {
     height: 80vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../media/images/banners/8.jpg") bottom no-repeat fixed;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     color: #fafafa;
 }
 
-.home-banner .Cursor.Cursor--blinking{
+.page-banner .Cursor.Cursor--blinking{
     font-size: 1.4rem;
 }
 
-.home-banner img {
+.page-banner img {
     width: 10rem;
 }
 
-.home-banner h1, .home-banner img {
+.page-banner h1, .page-banner img {
     /* Text styles */
     line-height: 1.15;
     text-transform: uppercase;
@@ -33,13 +31,13 @@
     text-rendering: optimizeLegibility;
 }
 
-.home-banner span.subtitle {
+.page-banner span.subtitle {
     line-height: 1.68;
     letter-spacing: .25rem;
     font-size: 1.4rem;
 }
 
-.home-banner p {
+.page-banner p {
     text-align: justify;
     word-break: normal;
     line-height: 2.4;
@@ -47,7 +45,7 @@
     color: inherit;
 }
 
-.home-banner .button {
+.page-banner .button {
 
     /* Padding and margins */
     padding: 0.7rem 1rem;
@@ -63,12 +61,12 @@
     border: 1px solid #fafafa;
 }
 
-.home-banner .banner-content {
+.page-banner .banner-content {
     padding: 7rem 4rem 2.5rem 2.5rem;
     position: relative;
 }
 
-.home-banner .banner-content::after, .home-banner .banner-content::before {
+.page-banner .banner-content::after, .page-banner .banner-content::before {
     content: "";
     width: 1px;
     background: #adadad;
@@ -81,7 +79,7 @@
     transition-delay: .3s;
 }
 
-.home-banner .banner-content::before {
+.page-banner .banner-content::before {
     height: 75%;
     top: 85%;
     left: -70px;
