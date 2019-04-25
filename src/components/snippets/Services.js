@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {Row, Col, Icon} from 'antd';
+import {Row, Col} from 'antd';
 import {Card} from 'antd';
 import './Services.css';
-import {Link} from "react-router-dom";
 import UberButton from "../buttons/UberButton";
 
 class ProductsSnippet extends Component {

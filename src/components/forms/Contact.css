@@ -8,6 +8,21 @@
     letter-spacing: .05rem;
 }
 
+.contact-form ::-webkit-input-placeholder { /* Edge */
+    line-height: 2;
+    letter-spacing: .05rem;
+}
+
+.contact-form  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    line-height: 2;
+    letter-spacing: .05rem;
+}
+
+.contact-form  ::placeholder {
+    line-height: 2;
+    letter-spacing: .05rem;
+}
+
 .submit-button {
     padding: .75rem;
     color: #0a0a0a;

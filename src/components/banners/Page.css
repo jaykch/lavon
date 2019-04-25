@@ -66,21 +66,23 @@
     position: relative;
 }
 
-.page-banner .banner-content::after, .page-banner .banner-content::before {
-    content: "";
-    width: 1px;
-    background: #adadad;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    transition-duration: .5s;
-    transition-property: height;
-    transition-delay: .3s;
-}
+/*Aesthetic Line*/
 
-.page-banner .banner-content::before {
-    height: 75%;
-    top: 85%;
-    left: -70px;
-}
+/*.page-banner .banner-content::after, .page-banner .banner-content::before {*/
+/*    content: "";*/
+/*    width: 1px;*/
+/*    background: #adadad;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 0;*/
+/*    transition-duration: .5s;*/
+/*    transition-property: height;*/
+/*    transition-delay: .3s;*/
+/*}*/
+
+/*.page-banner .banner-content::before {*/
+/*    height: 75%;*/
+/*    top: 85%;*/
+/*    left: -70px;*/
+/*}*/

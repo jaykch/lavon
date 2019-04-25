@@ -1,4 +1,4 @@
 #contact .page-banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../media/images/banners/marketing2.jpg") bottom no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../media/images/banners/marketing2.jpg") bottom no-repeat fixed;
     background-size: cover;
 }

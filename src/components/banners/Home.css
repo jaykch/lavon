@@ -67,22 +67,3 @@
     padding: 7rem 4rem 2.5rem 2.5rem;
     position: relative;
 }
-
-.home-banner .banner-content::after, .home-banner .banner-content::before {
-    content: "";
-    width: 1px;
-    background: #adadad;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    transition-duration: .5s;
-    transition-property: height;
-    transition-delay: .3s;
-}
-
-.home-banner .banner-content::before {
-    height: 75%;
-    top: 85%;
-    left: -70px;
-}

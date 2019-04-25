@@ -126,9 +126,9 @@ class ContactForm extends Component {
                 xs: {span: 24},
                 sm: {span: 8},
                 md: {span: 24},
-                lg: {span: 12},
+                lg: {span: 12, offset:1},
                 xl: {span: 8},
-                xxl: {span: 4}
+                xxl: {span: 4, offset:6}
             },
             wrapperCol: {
                 xs: {span: 24},
@@ -147,7 +147,7 @@ class ContactForm extends Component {
                 },
                 sm: {
                     span: 16,
-                    offset: 8,
+                    offset: 9,
                 },
             },
         };
@@ -248,7 +248,7 @@ class ContactForm extends Component {
                         }],
                     })(
                         <Input name="Phone Number" addonBefore={prefixSelector} style={{width: '100%'}}
-                               placeholder="9999999999" maxLength="10" onKeyPress={(e) => this.preventAlphabets(e)}/>
+                               placeholder="0444444444" maxLength="10" onKeyPress={(e) => this.preventAlphabets(e)}/>
                     )}
                 </FormItem>
                 <FormItem {...formItemLayout} label="Number of employees" hasFeedback>
@@ -265,16 +265,6 @@ class ContactForm extends Component {
                         </Select>
                     )}
                 </FormItem>
-                {/*<FormItem {...formItemLayout} label="Number of employees">*/}
-                {/*    {getFieldDecorator('employees', {*/}
-                {/*        rules: [{*/}
-                {/*            message: 'Please select how many employees you have'*/}
-                {/*        }],*/}
-                {/*    })(*/}
-                {/*        <Input name="Number of employees" style={{width: '100%'}} placeholder="How many employees do you have?"*/}
-                {/*               onKeyPress={(e) => this.preventAlphabets(e)}/>*/}
-                {/*    )}*/}
-                {/*</FormItem>*/}
                 <FormItem {...formItemLayout} label="Budget">
                     {getFieldDecorator('budget', {
                         rules: [{

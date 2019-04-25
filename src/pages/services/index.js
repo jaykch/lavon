@@ -8,7 +8,7 @@ const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 class Services extends Component {
     render() {
         return (
-            <Layout id="contact">
+            <Layout id="services">
                 <PageBanner title="Our Services" subtitle="Please connect with us!" text={text}/>
             </Layout>
         );
