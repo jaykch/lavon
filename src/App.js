@@ -19,15 +19,15 @@ import Saver from "./pages/services/Saver";
 import Quotation from "./pages/quotation";
 import Audit from "./pages/audit";
 
+//Drift Bot
+import Drift from 'react-driftjs';
+
 //Analytics Code
 
 import ReactGA from 'react-ga';
 import ScrollToTop from "./components/functionality/ScrollToTop";
-
 ReactGA.initialize('UA-82200184-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
-
-//UA-82200184-2
 
 class App extends Component {
     render() {
@@ -46,6 +46,7 @@ class App extends Component {
                         <Route exact path="/quotation" component={Quotation}/>
                         <Route exact path="/audit" component={Audit}/>
                         <Route exact path="/roadmap" component={Roadmap}/>
+                        <Drift appId="cziwywgmh3bn" />
                         <Footer/>
                     </ScrollToTop>
                 </Router>

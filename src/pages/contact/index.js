@@ -2,14 +2,21 @@ import React, {Component} from 'react';
 import './Contact.css';
 import {Layout} from "antd";
 import PageBanner from "../../components/banners/Page";
+import {WrappedContactForm} from "../../components/forms/Contact";
+import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
-const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+const {Content} = Layout;
+const text = "Lavon is focused on bringing our values into the work we produce, and we are thrilled to work with businesses who share the vision of a new reshaped industry. Fill in the fields below and we will get back to you within 12 hours!";
 
 class Contact extends Component {
     render() {
         return (
             <Layout id="contact">
-                <PageBanner title="Get Connected" subtitle="Please connect with us!" text={text}/>
+                <PageBanner title="Get Connected" subtitle="Ready for the next step?" text={text}
+                            button={<PremiumHashButton to="contact-form" text="Get in touch"/>}/>
+                <Content style={{margin: '0 16px'}}>
+                    <WrappedContactForm/>
+                </Content>
             </Layout>
         );
     }
