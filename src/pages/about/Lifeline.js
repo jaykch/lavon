@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {Row, Col} from 'antd';
-import {Card} from 'antd';
+import {Row, Col, Card} from 'antd';
 import './Lifeline.css';
 
 class Lifeline extends Component {

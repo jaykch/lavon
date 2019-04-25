@@ -1,0 +1,84 @@
+#timeline {
+    padding: 2rem 3rem 2rem;
+    margin: 2rem 0;
+    background-size: 99%;
+}
+
+.ant-timeline-item-head {
+     background-color: transparent;
+}
+
+#timeline .anticon{
+    font-size: 2rem;
+}
+
+#timeline{
+    line-height: 1.68;
+    letter-spacing: .12rem;
+    font-size: 1.4rem;
+}
+
+#timeline .ant-timeline-item-content{
+    padding: 0 1rem;
+}
+
+#timeline .success{
+    color: #7FFF00;
+}
+
+#timeline .fail{
+    color: #FF331F;
+}
+
+#timeline .loading{
+    color: #5B6C5D;
+}
+
+#timeline .warning{
+    color: #FFCC33;
+}
+
+#timeline .progress{
+    color: #CCFF00;
+}
+
+#timeline .experiment{
+    color: #3CB9FC;
+}
+
+#timeline .notify{
+    color: #DA2647;
+}
+
+#timeline .schedule{
+    color: #AAF0D1;
+}
+
+#timeline .launch{
+    color: #00FECA;
+}
+
+#timeline .finance{
+    color: #0a0a0a;
+}
+
+#timeline .bank{
+    color: #652DC1;
+}
+
+#timeline .security{
+    color: #f4cd2a;
+}
+
+#timeline .fix{
+    color: #4A646C;
+}
+
+#timeline .audit{
+    color: #DA2647;
+}
+
+#timeline .achievement{
+    color: #FFEB00;
+    font-size: 3.5rem;
+}

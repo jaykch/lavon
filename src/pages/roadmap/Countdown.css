@@ -1,0 +1,11 @@
+#countdown{
+    padding: 2rem 3rem 0;
+    margin: 2rem 0;
+}
+
+#countdown .ant-statistic span{
+    font-size: 5rem;
+    padding: 0 1rem;
+    background:#0a0a0a;
+    color: #fafafa;
+}
