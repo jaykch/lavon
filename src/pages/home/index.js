@@ -8,7 +8,6 @@ import ClientsSnippet from "../../components/snippets/Clients";
 import LocationSnippet from "../../components/snippets/Location";
 import ProductsSnippet from "../../components/snippets/Services";
 import WorkSnippet from "../../components/snippets/Work";
-import ContactSnippet from "../../components/snippets/Contact";
 
 const {Content} = Layout;
 
@@ -22,7 +21,6 @@ class Home extends Component {
                     <WorkSnippet/>
                     <ClientsSnippet/>
                     <LocationSnippet/>
-                    <ContactSnippet/>
                 </Content>
             </Layout>
         );

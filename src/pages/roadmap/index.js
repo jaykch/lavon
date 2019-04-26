@@ -4,6 +4,7 @@ import {Layout} from "antd";
 import PageBanner from "../../components/banners/Page";
 import TimeLine from "./TimeLine";
 import Countdown from "./Countdown";
+import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
 const {Content} = Layout;
 
@@ -13,7 +14,8 @@ class Roadmap extends Component {
     render() {
         return (
             <Layout id="roadmap">
-                <PageBanner title="Our Roadmap" subtitle="The path is set" text={text}/>
+                <PageBanner title="Our Roadmap" subtitle="The path is set" text={text}
+                            button={<PremiumHashButton to="timeline" text="View timeline"/>}/>
                 <Content style={{margin: '0 16px'}}>
                     <Countdown/>
                     <TimeLine/>

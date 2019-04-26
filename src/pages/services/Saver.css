@@ -1,0 +1,9 @@
+#saver .page-banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../media/images/banners/7.jpg") bottom no-repeat fixed;
+    background-size: cover;
+}
+
+#saver .card-image-container{
+    background: linear-gradient(rgba(139, 51, 57, 0.3), rgba(139, 51, 57, 0.6)), url("../../media/images/square/e-commerce.png") center no-repeat;
+    background-size: cover;
+}

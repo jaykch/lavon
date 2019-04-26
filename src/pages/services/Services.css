@@ -1,4 +1,37 @@
-#services .page-banner{
+#services .page-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../media/images/banners/7.jpg") bottom no-repeat fixed;
     background-size: cover;
+}
+
+.ant-steps-vertical > .ant-steps-item > .ant-steps-item-tail::after {
+    margin: 0.5rem 0;
+}
+
+#partnerships .content-wrapper, #restart .content-wrapper, #saver .content-wrapper {
+    padding: 2rem 3rem 2rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#partnerships .ant-card, #restart .ant-card, #saver .ant-card {
+    margin-left: -5rem;
+}
+
+#partnerships .ant-steps-item-content, #restart .ant-steps-item-content, #saver .ant-steps-item-content {
+    line-height: 1.68;
+    letter-spacing: .08rem;
+    margin: 1rem;
+}
+
+#partnerships .card-image-container, #restart .card-image-container, #saver .card-image-container {
+    height: 500px;
+    width: 500px;
+}
+
+#partnerships .ant-steps-item-content .ant-steps-item-title, #restart .ant-steps-item-content .ant-steps-item-title,
+#saver .ant-steps-item-content .ant-steps-item-title {
+    font-size: 1.4rem;
 }

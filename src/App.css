@@ -1,26 +1,56 @@
-.ant-layout{
-  background: #fafafa;
+.ant-layout {
+    background: #fafafa;
 }
 
-hr{
-  border: 0;
-  height: 1px;
-  background-color: #919394;
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #919394;
 }
 
-.text-right{
-  text-align: right;
+.text-right {
+    text-align: right;
 }
 
-.text-center{
-  text-align: center;
+.text-center {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Loading Screen*/
+@keyframes load {
+    0% {
+        opacity: 0.08;
+        letter-spacing: 0.7rem;
+    }
+    100% {
+    }
+}
+
+.loader{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.animate {
+    line-height: 1.15;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5rem;
+    letter-spacing: .25rem;
+    color: #0a0a0a;
+    text-rendering: optimizeLegibility;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*margin: auto;*/
+    animation: load 1s infinite 0s ease-in-out;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    text-shadow: 0 0 1px white;
 }

@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
 import {Row, Col} from 'antd';
 import {Card} from 'antd';
-import './Services.css';
-import UberButton from "../buttons/UberButton";
+import './Summary.css';
+import UberButton from "../../components/buttons/UberButton";
 
-class ProductsSnippet extends Component {
+class Summary extends Component {
     render() {
         return (
-            <div className="services-snippet">
+            <div className="summary">
                 <Row>
                     <Col span={12} offset={4} className="snippet-content">
-                        <h1>Our Services</h1>
                         <span
                             className="subtitle">Reshaping Australian businesses to stay relevant in the present</span>
                         <br/>
@@ -23,6 +22,7 @@ class ProductsSnippet extends Component {
                                 business operations and find the leaks of resources. Providing insight into the
                                 strategic alignment moving forward while utilising our library of expertise. </p>
                             <p>All Lavon Partnerships include all expenses paid quarterly events. </p>
+                            <UberButton to="/services/partnerships" text="Learn More"/>
                         </Card>
                     </Col>
                     <Col span={5} className="card-wrapper">
@@ -32,6 +32,7 @@ class ProductsSnippet extends Component {
                                 complement. </p>
                             <p><strong>All Included:</strong> Brand Logo, Social Identity, Website, Internal Messaging,
                                 and a new Brand Strategy. </p>
+                            <UberButton to="/services/restart" text="Learn More"/>
                         </Card>
                     </Col>
                     <Col span={5} className="card-wrapper">
@@ -39,13 +40,9 @@ class ProductsSnippet extends Component {
                             <p>The virtual management agency. Taking into account what you stand for and what you
                                 represent, our team will extend the virtual assistance by organising your marketing,
                                 production costs, cost reductions, and giving you time to focus on improving your day to
-                                day operations.</p>
+                                day operations.</p><br/><br/>
+                            <UberButton to="/services/saver" text="Learn More"/>
                         </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col span={5} offset={4}>
-                        <UberButton to="/services" text="Explore all our services"/>
                     </Col>
                 </Row>
             </div>
@@ -53,4 +50,4 @@ class ProductsSnippet extends Component {
     }
 }
 
-export default ProductsSnippet;
+export default Summary;

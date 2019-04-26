@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Statistic, Row } from 'antd';
+import {Statistic, Row, Col} from 'antd';
 import './Countdown.css';
 
 const Counter = Statistic.Countdown;
@@ -10,8 +10,10 @@ class Countdown extends Component {
         return (
             <div id="countdown">
                 <Row gutter={16} className="text-center">
+                    <Col span={12} offset={5}>
                         <h1>Next Milestone</h1>
                         <Counter value={deadline} format="D day H:m:s"/>
+                    </Col>
                 </Row>
             </div>
         );
