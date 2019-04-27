@@ -16,8 +16,8 @@ class AppFooter extends Component {
                 <Row className="logo">
                     <img src={logo} alt="LAVON"/><span> | Concept to Creation</span>
                 </Row>
-                <Row>
-                    <Col span={6}>
+                <Row className="site-map">
+                    <Col xs={24} lg={{span: 6}}>
                         <h2>Navigation</h2>
                         <ul>
                             <li><Link to="/" className="footer-link">Home</Link></li>
@@ -27,7 +27,7 @@ class AppFooter extends Component {
                             <li><Link to="/roadmamp" className="footer-link">Our Roadmap</Link></li>
                         </ul>
                     </Col>
-                    <Col span={6}>
+                    <Col xs={24} lg={{span: 6}}>
                         <h2>Services</h2>
                         <ul>
                             <li><Link to="/services/partnerships" className="footer-link">Partnerships</Link></li>
@@ -35,32 +35,33 @@ class AppFooter extends Component {
                             <li><Link to="/services/saver" className="footer-link">Saver</Link></li>
                         </ul>
                     </Col>
-                    <Col span={3} className="text-right">
+                    <Col xs={24} lg={{span: 3}}>
                         <h2>&nbsp;</h2>
                         <span>512-206-xxxx | 512-777-xxxx</span><br/><br/>
                         <span>Queen St, Melbourne </span><br/>
                         <span>VIC, Australia 3004</span>
-                        <PremiumButton to="/quotation" text="Get A Quote"/>
+                        <PremiumButton to="/contact-us" text="Get A Quote"/>
                     </Col>
                 </Row>
-                <hr/>
-                <Row >
-                    <Col span={12} className="social-icons">
-                        <a href="https://www.facebook.com/lavonau/" target="_blank">
-                            <Icon type="facebook" theme="filled"/>
-                        </a>
-                        <a href="https://www.instagram.com/lavonaus/" target="_blank">
-                            <Icon type="instagram" theme="filled"/>
-                        </a>
-                        <a href="https://www.linkedin.com/company/lavonmelb/" target="_blank">
-                            <Icon type="linkedin" theme="filled"/>
-                        </a>
-                        <a href="https://www.linkedin.com/company/lavonmelb/" target="_blank">
-                            <Icon type="youtube" theme="filled"/>
-                        </a>
-                    </Col>
-                    <Col span={3}>
-                        <span className="copyright">&copy;2019 Lavon | Concept To Creation</span>
+                <Row>
+                    <Col xs={24} lg={{span: 20}} className="footer-wrapper">
+                        <div className="social-icons">
+                            <a href="https://www.facebook.com/lavonau/" target="_blank">
+                                <Icon type="facebook" theme="filled"/>
+                            </a>
+                            <a href="https://www.instagram.com/lavonaus/" target="_blank">
+                                <Icon type="instagram" theme="filled"/>
+                            </a>
+                            <a href="https://www.linkedin.com/company/lavonmelb/" target="_blank">
+                                <Icon type="linkedin" theme="filled"/>
+                            </a>
+                            <a href="https://www.linkedin.com/company/lavonmelb/" target="_blank">
+                                <Icon type="youtube" theme="filled"/>
+                            </a>
+                        </div>
+                        <div>
+                            <span className="copyright">&copy;2019 Lavon | Concept To Creation</span>
+                        </div>
                     </Col>
                 </Row>
             </Footer>

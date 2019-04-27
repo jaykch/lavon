@@ -36,7 +36,7 @@ class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <Preloader fadeDuration={3000} className="loader">
+                <Preloader fadeDuration={1500} className="loader">
                     <Router>
                         <ScrollToTop>
                             <Navbar/>
@@ -54,10 +54,10 @@ class App extends Component {
                             <Footer/>
                         </ScrollToTop>
                     </Router>
-                    <Placeholder>
-                        <h1 className="animate">LAVON</h1>
-                        <p>Please wait while the website loads</p>
-                    </Placeholder>
+                    {/*<Placeholder>*/}
+                    {/*    <h1 className="animate">LAVON</h1>*/}
+                    {/*    <p>Please wait while the website loads</p>*/}
+                    {/*</Placeholder>*/}
                 </Preloader>
             </Provider>
         );

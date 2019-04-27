@@ -80,7 +80,7 @@ class Navbar extends Component {
                         </Link>
                     </Menu.Item>
                 </Menu>
-                <UberButton to="/audit" text="Free Audit"/>
+                <UberButton to="/contact-us" text="Free Audit"/>
             </Sider>
         );
     }

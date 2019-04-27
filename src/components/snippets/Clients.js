@@ -7,7 +7,7 @@ class ClientsSnippet extends Component {
     render() {
         return (
             <Row className="clients-snippet">
-                <Col span={14} offset={5} className="snippet-content">
+                <Col xs={24} lg={{span: 14, offset:5}} className="snippet-content">
                     <Card bordered={false}>
                         <h1>Our Clients</h1>
                         <span className="subtitle">Who we work with</span>

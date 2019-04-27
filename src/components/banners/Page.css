@@ -7,7 +7,12 @@
     color: #fafafa;
 }
 
-.page-banner .Cursor.Cursor--blinking{
+.page-banner .banner-content {
+    padding: 2rem 1.5rem;
+    position: relative;
+}
+
+.page-banner .Cursor.Cursor--blinking {
     font-size: 1.4rem;
 }
 
@@ -61,10 +66,6 @@
     border: 1px solid #fafafa;
 }
 
-.page-banner .banner-content {
-    padding: 7rem 4rem 2.5rem 2.5rem;
-    position: relative;
-}
 
 /*Aesthetic Line*/
 

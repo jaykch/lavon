@@ -6,33 +6,41 @@ class WorkSnippet extends Component {
     render() {
         return (
             <Row className="work-snippet">
-                <Col span={7} offset={5} className="works-container">
-                    <a href="http://www.dynamechelectropower.com/" target="_blank" className="work-showcase">
+                <Col xs={24} lg={{span: 7, offset: 5}} className="works-container">
+                    <a href="http://www.dynamechelectropower.com/" target="_blank" rel="noopener noreferrer"
+                       className="work-showcase">
                         Dynamech
                     </a>
-                    <a href="http://eaglepizzas.com.au/" target="_blank" className="work-showcase">
+                    <a href="http://eaglepizzas.com.au/" target="_blank" rel="noopener noreferrer"
+                       className="work-showcase">
                         Eagle Pizza
                     </a>
-                    <a href="http://www.dynopowersystems.com/" target="_blank" className="work-showcase">
+                    <a href="http://www.dynopowersystems.com/" target="_blank" rel="noopener noreferrer"
+                       className="work-showcase">
                         Dynopower
                     </a>
-                    <a href="https://yugentechnologies.github.io/" target="_blank" className="work-showcase">
+                    <a href="https://yugentechnologies.github.io/" target="_blank" rel="noopener noreferrer"
+                       className="work-showcase">
                         Yugen
                     </a>
-                    <a href="https://www.the16yearoldmaoriboy.co.nz/" target="_blank" className="work-showcase">
+                    <a href="https://www.the16yearoldmaoriboy.co.nz/" target="_blank" rel="noopener noreferrer"
+                       className="work-showcase">
                         16yomb
                     </a>
-                    <a href="http://www.mukisports.com/" target="_blank" className="work-showcase">
+                    <a href="http://www.mukisports.com/" target="_blank" rel="noopener noreferrer"
+                       className="work-showcase">
                         Muki
                     </a>
-                    <a href="http://conferroheritae.com/" target="_blank" className="work-showcase">
+                    <a href="http://conferroheritae.com/" target="_blank" rel="noopener noreferrer"
+                       className="work-showcase">
                         Conferro
                     </a>
-                    <a href="https://www.xrpaustralia.com.au" target="_blank" className="work-showcase">
+                    <a href="https://www.xrpaustralia.com.au" target="_blank" rel="noopener noreferrer"
+                       className="work-showcase">
                         XRP Au
                     </a>
                 </Col>
-                <Col span={7} className="snippet-content">
+                <Col xs={24} lg={{span: 7}} className="snippet-content">
                     <h1>Work</h1>
                     <span className="subtitle">We take pride in our work</span>
                     <hr/>

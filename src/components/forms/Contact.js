@@ -172,14 +172,16 @@ class ContactForm extends Component {
                 <FormItem {...formItemLayout} label="What services are you interested in">
                     {getFieldDecorator('services', {
                         rules: [
-                            {required: true, message: 'Please select at least one!', type: 'array'},
+                            {required: true, message: 'No service selected!', type: 'array'},
                         ],
                     })(
                         <Select mode="multiple" placeholder="Please select the services you are interested in">
                             <Option value="Lavon Partnerships">Lavon Partnerships</Option>
                             <Option value="Lavon Restart">Lavon Restart</Option>
                             <Option value="Lavon Saver">Lavon Saver</Option>
-                            <Option value="Smaller ServicesS">Smaller Services</Option>
+                            <Option value="Smaller Services">Smaller Services</Option>
+                            <Option value="Get a quote">Get a quote</Option>
+                            <Option value="Free Audit">Free Audit</Option>
                         </Select>
                     )}
                 </FormItem>
@@ -187,7 +189,7 @@ class ContactForm extends Component {
                     {getFieldDecorator('name', {
                         rules: [{
                             required: true,
-                            message: 'Please input your name!',
+                            message: 'No name entered!',
                         }],
                     })(
                         <Input name="Name" placeholder="Please input your name"/>
@@ -197,7 +199,7 @@ class ContactForm extends Component {
                     {getFieldDecorator('organisation', {
                         rules: [{
                             required: true,
-                            message: 'Letting us know your organisation will help us understand your query!',
+                            message: 'Letting us know your organisation will help us understand your query better!',
                         }],
                     })(
                         <Input name="Organisation" placeholder="Please enter your company name"/>
@@ -206,7 +208,7 @@ class ContactForm extends Component {
                 <FormItem {...formItemLayout} label="E-mail">
                     {getFieldDecorator('email', {
                         rules: [{
-                            type: 'email', message: 'The input is not a valid E-mail!',
+                            type: 'email', message: 'The email you entered is not valid!',
                         }, {
                             required: true, message: 'Please input your E-mail!',
                         }],
@@ -218,14 +220,14 @@ class ContactForm extends Component {
                           label={(
                               <span>
                             Confirm E-mail&nbsp;
-                                  <Tooltip title="Please confirm your email">
+                                  <Tooltip title="Please confirm your E-mail">
                                 <Icon type="question-circle-o"/>
                             </Tooltip>
                          </span>
                           )}>
                     {getFieldDecorator('confirm', {
                         rules: [{
-                            required: true, message: 'Please confirm your E-mail!',
+                            required: true, message: 'The emails you entered do not match!',
                         }, {
                             validator: this.checkEmail,
                         }],
@@ -244,7 +246,7 @@ class ContactForm extends Component {
                 <FormItem {...formItemLayout} label="Phone Number">
                     {getFieldDecorator('phone', {
                         rules: [{
-                            message: 'Giving us your telephone number will help us to assist you better!'
+                            message: 'Giving us your telephone number will help us assist you!'
                         }],
                     })(
                         <Input name="Phone Number" addonBefore={prefixSelector} style={{width: '100%'}}
@@ -254,7 +256,7 @@ class ContactForm extends Component {
                 <FormItem {...formItemLayout} label="Number of employees" hasFeedback>
                     {getFieldDecorator('employees', {
                         rules: [
-                            {message: 'Please select how many employees you have'},
+                            {message: 'Please select how many employees you have!'},
                         ],
                     })(
                         <Select placeholder="How many employees do you have?">

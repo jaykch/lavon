@@ -12,7 +12,7 @@ class HomeBanner extends Component {
             <header>
                 <div className="home-banner">
                     <Row style={{margin: '0 16px'}}>
-                        <Col className="banner-content" span={12} offset={5}>
+                        <Col className="banner-content" xs={24} lg={{ span: 12, offset: 5 }}>
                             <img src={logo} alt="LAVON"/>
                             <Typist><span className="subtitle">Concept to creation</span></Typist>
                             <p>Launching in 2019, Lavon is a rapidly growing start-up that focuses on reshaping the

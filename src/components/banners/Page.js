@@ -11,7 +11,7 @@ class PageBanner extends Component {
             <header>
                 <div className="page-banner">
                     <Row style={{margin: '0 16px'}}>
-                        <Col className="banner-content" span={12} offset={5}>
+                        <Col className="banner-content" xs={24} lg={{span: 12, offset: 5}}>
                             <h1>{this.props.title}</h1>
                             <Typist><span className="subtitle">{this.props.subtitle}</span></Typist>
                             <p>{this.props.text}</p>

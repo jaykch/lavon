@@ -9,6 +9,11 @@
     color: #fafafa;
 }
 
+.home-banner .banner-content {
+    padding: 2rem 1.5rem;
+    position: relative;
+}
+
 .home-banner .Cursor.Cursor--blinking{
     font-size: 1.4rem;
 }
@@ -61,9 +66,4 @@
 
     /* Border styles */
     border: 1px solid #fafafa;
-}
-
-.home-banner .banner-content {
-    padding: 7rem 4rem 2.5rem 2.5rem;
-    position: relative;
 }

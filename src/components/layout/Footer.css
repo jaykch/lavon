@@ -20,7 +20,6 @@
 
     /* Margins */
     margin: 3rem 0;
-
     text-rendering: optimizeLegibility;
 }
 
@@ -31,13 +30,12 @@
     font-size: 1.5rem;
     letter-spacing: .25rem;
     display: block;
-     margin-left: 2rem
+    margin-left: 2rem
 }
 
 #footer ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 0 3rem;
 }
 
 #footer ul a {
@@ -86,4 +84,19 @@
 
 #footer .social-icons a:hover, #footer ul a:hover {
     opacity: 0.65;
+}
+
+#footer .footer-wrapper{
+    border-top: solid 1px #919394;
+    padding-top: .2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/*Responsive Code*/
+@media screen and (max-width:764px){
+    #footer .logo span{
+        display: none;
+    }
 }
