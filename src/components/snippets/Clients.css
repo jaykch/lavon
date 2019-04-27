@@ -1,18 +1,19 @@
-.clients-snippet{
+.clients-snippet {
     padding: 2rem .5rem;
     margin: 2rem 0;
-    background: #f6f6f6  url("../../media/images/misc/city2.svg") center 40% no-repeat;
+    background: #f6f6f6 url("../../media/images/misc/city2.svg") center 40% no-repeat;
     background-size: 99%;
 }
 
-.clients-snippet .snippet-content{
+.clients-snippet .snippet-content {
     text-align: center;
 }
-.clients-snippet .ant-card{
+
+.clients-snippet .ant-card {
     /*background: none;*/
 }
 
-.clients-snippet .client-list span{
+.clients-snippet .client-list span {
     display: inline-block;
     margin: .5rem 2rem;
     text-transform: uppercase;
@@ -23,20 +24,27 @@
     color: #757676;
 }
 
-.clients-snippet h1{
+.clients-snippet h1 {
     color: inherit;
 }
 
-.clients-snippet p{
+.clients-snippet p {
     text-align: center;
 }
 
-.clients-snippet hr{
+.clients-snippet hr {
     width: 50%;
     background-color: rgba(173, 173, 173, 0.27);
 }
 
-.clients-snippet .uber-button{
+.clients-snippet .uber-button {
     max-width: 160px;
     margin: auto;
+}
+
+/*Responsive Code*/
+@media screen and (max-width: 768px) {
+    .clients-snippet {
+        background-size: 400%;
+    }
 }

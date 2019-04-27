@@ -9,7 +9,6 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-driftjs": "^1.1.6",
     "react-ga": "^2.5.7",
     "react-preloading-screen": "^1.0.2",
     "react-redux": "^7.0.2",

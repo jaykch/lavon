@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {BackTop} from 'antd';
 import "antd/dist/antd.css";
 import './App.css';
 
@@ -21,11 +22,8 @@ import Saver from "./pages/services/Saver";
 import Quotation from "./pages/quotation";
 import Audit from "./pages/audit";
 
-//Drift Bot
-import Drift from 'react-driftjs';
 
 //Analytics Code
-
 import ReactGA from 'react-ga';
 import ScrollToTop from "./components/functionality/ScrollToTop";
 
@@ -50,14 +48,14 @@ class App extends Component {
                             <Route exact path="/quotation" component={Quotation}/>
                             <Route exact path="/audit" component={Audit}/>
                             <Route exact path="/roadmap" component={Roadmap}/>
-                            <Drift appId="cziwywgmh3bn"/>
                             <Footer/>
                         </ScrollToTop>
+                        <BackTop/>
                     </Router>
-                    {/*<Placeholder>*/}
-                    {/*    <h1 className="animate">LAVON</h1>*/}
-                    {/*    <p>Please wait while the website loads</p>*/}
-                    {/*</Placeholder>*/}
+                    <Placeholder>
+                        {/*<h1 className="animate">LAVON</h1>*/}
+                        {/*<p>Please wait while the website loads</p>*/}
+                    </Placeholder>
                 </Preloader>
             </Provider>
         );

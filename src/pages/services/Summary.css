@@ -1,12 +1,8 @@
 .summary {
-    padding: 2rem 3rem 2rem;
+    padding: 2rem 1.5rem;
     margin: 2rem 0;
     background: #f6f6f6  url("../../media/images/misc/city.svg") center 40% no-repeat;
     background-size: 99%;
-}
-
-.summary .snippet-content{
-    padding: 0 0 0 32px;
 }
 
 .summary .uber-button{
@@ -25,13 +21,25 @@
     line-height: 2;
 }
 
-.summary .cards-container{
-    margin: 2rem 0;
+.summary .ant-row{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .summary .card-wrapper{
-    flex: 0 0 22%;
-    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.summary .card-wrapper .ant-card{
+    height: 100%;
+}
+
+/*Responsive Code*/
+@media screen and (max-width: 768px) {
+    .summary {
+        background-size: 400%;
+    }
 }

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {Icon, Layout, Menu} from "antd";
-import { withRouter } from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 
 import './Navbar.css';
 import UberButton from "../buttons/UberButton";
@@ -11,6 +11,7 @@ const {
 } = Layout;
 
 const SubMenu = Menu.SubMenu;
+
 // const MenuItemGroup = Menu.ItemGroup;
 
 class Navbar extends Component {
@@ -24,12 +25,11 @@ class Navbar extends Component {
                        console.log(collapsed, type);
                    }}
                    style={{
-                       overflow: 'auto', height: '100vh', position: 'fixed', right: 0
+                       height: '100vh', position: 'fixed', right: 0
                    }}
             >
-                <div className="logo"/>
                 <Menu theme="dark" mode="vertical" defaultSelectedKeys={['/']} defaultOpenKeys={['/']}
-                     selectedKeys={[this.props.location.pathname]}
+                      selectedKeys={[this.props.location.pathname]}
                 >
                     <Menu.Item key="/">
                         <Link to="/">

@@ -24,7 +24,7 @@ class AppFooter extends Component {
                             <li><Link to="/services" className="footer-link">Our Services</Link></li>
                             <li><Link to="/about-us" className="footer-link">Life At Lavon</Link></li>
                             <li><Link to="/contact-us" className="footer-link">Get Connected</Link></li>
-                            <li><Link to="/roadmamp" className="footer-link">Our Roadmap</Link></li>
+                            <li><Link to="/roadmap" className="footer-link">Our Roadmap</Link></li>
                         </ul>
                     </Col>
                     <Col xs={24} lg={{span: 6}}>
@@ -46,16 +46,18 @@ class AppFooter extends Component {
                 <Row>
                     <Col xs={24} lg={{span: 20}} className="footer-wrapper">
                         <div className="social-icons">
-                            <a href="https://www.facebook.com/lavonau/" target="_blank">
+                            <a href="https://www.facebook.com/lavonau/" target="_blank" rel="noopener noreferrer">
                                 <Icon type="facebook" theme="filled"/>
                             </a>
-                            <a href="https://www.instagram.com/lavonaus/" target="_blank">
+                            <a href="https://www.instagram.com/lavonaus/" target="_blank" rel="noopener noreferrer">
                                 <Icon type="instagram" theme="filled"/>
                             </a>
-                            <a href="https://www.linkedin.com/company/lavonmelb/" target="_blank">
+                            <a href="https://www.linkedin.com/company/lavonmelb/" target="_blank"
+                               rel="noopener noreferrer">
                                 <Icon type="linkedin" theme="filled"/>
                             </a>
-                            <a href="https://www.linkedin.com/company/lavonmelb/" target="_blank">
+                            <a href="https://www.linkedin.com/company/lavonmelb/" target="_blank"
+                               rel="noopener noreferrer">
                                 <Icon type="youtube" theme="filled"/>
                             </a>
                         </div>

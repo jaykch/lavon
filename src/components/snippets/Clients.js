@@ -27,7 +27,7 @@ class ClientsSnippet extends Component {
                             <footer><cite>Dynopower Systems</cite>
                             </footer>
                         </blockquote>
-                        <UberButton to="/clients" text="Our clients"/>
+                        <UberButton to="/about-us" text="Learn More"/>
                     </Card>
                 </Col>
             </Row>

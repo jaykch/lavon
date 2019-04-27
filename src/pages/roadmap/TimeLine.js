@@ -23,7 +23,7 @@ class TimeLine extends Component {
         return (
             <div id="timeline">
                 <Row>
-                    <Col span={12} offset={5}>
+                    <Col xs={24} lg={{span: 12, offset: 5}}>
                         <Timeline mode="alternate">
                             <Timeline.Item dot={failIcon}>
                                 <strong>April 1: Eagle Pizza Deadline </strong><br/> First deadline for previous

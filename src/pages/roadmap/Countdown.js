@@ -10,7 +10,7 @@ class Countdown extends Component {
         return (
             <div id="countdown">
                 <Row gutter={16} className="text-center">
-                    <Col span={12} offset={5}>
+                    <Col xs={24} lg={{span: 12, offset: 5}}>
                         <h1>Next Milestone</h1>
                         <Counter value={deadline} format="D day H:m:s"/>
                     </Col>

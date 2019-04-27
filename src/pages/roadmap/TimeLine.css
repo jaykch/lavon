@@ -1,7 +1,10 @@
 #timeline {
-    padding: 2rem 3rem 2rem;
+    padding: 2rem .5rem;
     margin: 2rem 0;
     background-size: 99%;
+    line-height: 1.68;
+    letter-spacing: .12rem;
+    font-size: 1.4rem;
 }
 
 .ant-timeline-item-head {
@@ -10,12 +13,6 @@
 
 #timeline .anticon{
     font-size: 2rem;
-}
-
-#timeline{
-    line-height: 1.68;
-    letter-spacing: .12rem;
-    font-size: 1.4rem;
 }
 
 #timeline .ant-timeline-item-content{

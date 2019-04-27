@@ -1,7 +1,7 @@
 #lifeline {
-    padding: 2rem 3rem 2rem;
+    padding: 2rem 1.5rem;
     margin: 2rem 0;
-    background: #f6f6f6  url("../../media/images/misc/working.svg") center -10% no-repeat;
+    background: #f6f6f6  url("../../media/images/misc/working.svg") center no-repeat;
     background-size: 99%;
 }
 
@@ -47,15 +47,32 @@
 
 #lifeline .cards-container{
     margin: 2rem 0;
+}
+
+#lifeline .ant-row{
     display: flex;
     flex-flow: row wrap;
 }
 
 #lifeline .card-wrapper{
-    flex: 0 0 30%;
-    display: flex;
+    margin-bottom: 2rem;
 }
 
-#lifeline .ant-card{
-    margin: 2rem 0 0;
+#lifeline .card-wrapper .ant-card{
+    height: 100%;
+}
+
+/*Responsive Code*/
+@media screen and (max-width: 768px) {
+    #lifeline {
+        background-position-y: 20%;
+        background-size: 500%;
+    }
+}
+
+@media screen and (max-width: 992px) and  (min-width: 769px) {
+    #lifeline {
+        background-position-y: 80%;
+        background-size: 500%;
+    }
 }

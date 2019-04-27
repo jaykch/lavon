@@ -3,6 +3,7 @@ import './Saver.css';
 import {Card, Col, Icon, Layout, Row, Steps} from "antd";
 import PageBanner from "../../components/banners/Page";
 import SaverTabs from "./SaverTabs";
+import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
 const Step = Steps.Step;
 const {Content} = Layout;
@@ -14,11 +15,12 @@ class Saver extends Component {
     render() {
         return (
             <Layout id="saver">
-                <PageBanner title="Lavon Saver" subtitle="Please connect with us!" text={bannerText}/>
+                <PageBanner title="Lavon Saver" subtitle="Please connect with us!" text={bannerText}
+                            button={<PremiumHashButton to="content-wrapper" text="View Details"/>}/>
                 <Content style={{margin: '0 16px'}}>
                     <Row className="content-wrapper">
                         <div className="card-image-container"></div>
-                        <Col span={10}>
+                        <Col xs={24} lg={{span: 10}}>
                             <Card hoverable>
                                 <Steps direction="vertical">
                                     <Step status="process" icon={<Icon type="loading"/>} title="Value Focused"

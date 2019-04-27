@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './Partnerships.css';
 import {Col, Layout, Row, Steps, Icon, Card} from "antd";
 import PageBanner from "../../components/banners/Page";
+import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
 const Step = Steps.Step;
 const {Content} = Layout;
@@ -16,11 +17,12 @@ class Partnerships extends Component {
     render() {
         return (
             <Layout id="partnerships">
-                <PageBanner title="Lavon Partnerships" subtitle="Please connect with us!" text={bannerText}/>
+                <PageBanner title="Lavon Partnerships" subtitle="Please connect with us!" text={bannerText}
+                            button={<PremiumHashButton to="content-wrapper" text="View Details"/>}/>
                 <Content style={{margin: '0 16px'}}>
                     <Row className="content-wrapper">
                         <div className="card-image-container"></div>
-                        <Col span={10}>
+                        <Col xs={24} lg={{span: 10}}>
                             <Card hoverable>
                                 <Steps direction="vertical">
                                     <Step status="process" icon={<Icon type="loading"/>} title="Needle in a Haystack "

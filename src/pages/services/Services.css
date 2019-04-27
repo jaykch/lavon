@@ -8,7 +8,7 @@
 }
 
 #partnerships .content-wrapper, #restart .content-wrapper, #saver .content-wrapper {
-    padding: 2rem 3rem 2rem;
+    padding: 2rem .5rem;
     margin: 2rem 0;
     display: flex;
     flex-flow: row nowrap;
@@ -27,11 +27,22 @@
 }
 
 #partnerships .card-image-container, #restart .card-image-container, #saver .card-image-container {
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
 }
 
 #partnerships .ant-steps-item-content .ant-steps-item-title, #restart .ant-steps-item-content .ant-steps-item-title,
 #saver .ant-steps-item-content .ant-steps-item-title {
     font-size: 1.4rem;
+}
+
+/*Responsive Code*/
+@media screen and (max-width: 768px) {
+    #partnerships .card-image-container, #restart .card-image-container, #saver .card-image-container {
+        display: none;
+    }
+
+    #partnerships .ant-card, #restart .ant-card, #saver .ant-card {
+        margin-left: 0;
+    }
 }

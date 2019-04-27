@@ -3,10 +3,6 @@ import {Tabs, List} from "antd";
 
 const TabPane = Tabs.TabPane;
 
-function callback(key) {
-    console.log(key);
-}
-
 const data1 = [
     'Market research',
     'Market analysis, selection and entry strategy ',
@@ -31,7 +27,7 @@ const data2 = [
 class SaverTabs extends Component {
     render() {
         return (
-            <Tabs size="large">
+            <Tabs size="small">
                 <TabPane tab="Business Solutions" key="1">
                     <h3 style={{margin: '16px 0'}}>A wide range of business solutions can be offered</h3>
                     <List size="small" bordered dataSource={data1} renderItem={item => (<List.Item>{item}</List.Item>)}/>
