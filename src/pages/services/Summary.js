@@ -18,29 +18,28 @@ class Summary extends Component {
                 <Row className="cards-container" gutter={16}>
                     <Col xs={24} lg={{span: 5}} className="card-wrapper">
                         <Card title="Lavon Partnerships " bordered={false} hoverable>
-                            <p>Lavon Partners have exclusive access to our internal auditing team that looks into your
-                                business operations and find the leaks of resources. Providing insight into the
-                                strategic alignment moving forward while utilising our library of expertise. </p>
-                            <p>All Lavon Partnerships include all expenses paid quarterly events. </p>
+                            <p>With auditing capabilities of a marketing agency coupled with the fine-tuned roadmap of
+                                our creative team, we bring new consumer insight driven paths to clients. With an
+                                addition of quarterly events to bring you closer to B2B Leaders.</p>
                             <UberButton to="/services/partnerships" text="Learn More"/>
                         </Card>
                     </Col>
                     <Col xs={24} lg={{span: 5}} className="card-wrapper">
                         <Card title="Lavon Restart" bordered={false} hoverable>
-                            <p>Providing a new opportunity to help realign to a new direction for your brand. Allowing a
-                                full strategic realignment on your unique selling proposition, with visuals to
-                                complement. </p>
-                            <p><strong>All Included:</strong> Brand Logo, Social Identity, Website, Internal Messaging,
-                                and a new Brand Strategy. </p>
+                            <p>We utilise resources to bring you a creative insight-driven branding that communicates
+                                your value proposition through new brand elements. Creating a new chance to recapture
+                                lost market share through the new value proposition.</p>
+                            <p><strong>This may include:</strong> Brand Logo, Social Identity, Website, Internal
+                                Messaging, and a new Brand Strategy. </p>
                             <UberButton to="/services/restart" text="Learn More"/>
                         </Card>
                     </Col>
                     <Col xs={24} lg={{span: 5}} className="card-wrapper">
                         <Card title="Lavon Saver" bordered={false} hoverable>
-                            <p>The virtual management agency. Taking into account what you stand for and what you
-                                represent, our team will extend the virtual assistance by organising your marketing,
-                                production costs, cost reductions, and giving you time to focus on improving your day to
-                                day operations.</p><br/><br/>
+                            <p>Leveraging our skill sets bringing you a virtual team that capitalises on lost market
+                                share growth with a new shift towards strategically focused activities. Alleviating
+                                resources to allow you to shift towards training and bringing your team to a new
+                                level.</p>
                             <UberButton to="/services/saver" text="Learn More"/>
                         </Card>
                     </Col>

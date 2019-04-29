@@ -41,17 +41,15 @@ class WorkSnippet extends Component {
                     </a>
                 </Col>
                 <Col xs={24} lg={{span: 7}} className="snippet-content">
-                    <h1>Work</h1>
-                    <span className="subtitle">We take pride in our work</span>
+                    <h1>Our Work</h1>
+                    <span className="subtitle">Delivering Perfection</span>
                     <hr/>
-                    <p>It is possible to have a website that obtains results and that can be a fundamental part of your
-                        commercial strategy. Uniting innovation, profitability and growth in a product made especially
-                        for your company is possible. Never happy to settle with 'it can work’, the work at Lavon has to
-                        be ‘perfect’.
-                    </p><p>
-                    Great work comes from great ideas, great strategy and great people - things that are abundant around
-                    here.</p>
-
+                    <p>It is possible to have a website where it obtains results and being an integral part of your
+                        commercial strategy. It is feasible in creating a product bespoke to your brand/company while
+                        merging innovation, profitability and growth. We are never happy to settle with “it can work”;
+                        the work at Lavon has to be ‘perfect’.
+                    </p>
+                    <p>Great work comes from great ideas, great strategy and great people.</p>
                 </Col>
             </Row>
         );

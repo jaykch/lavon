@@ -10,7 +10,7 @@ class Lifeline extends Component {
                     <Col xs={24} lg={{span: 12, offset: 4}} className="content">
                         <h1>Our Lifeline</h1>
                         <span className="subtitle">
-                            One of the things that makes us unique is the incredibly talented, smart and passionate people we employ
+                            Our uniqueness in the field arises from the immensely talented and passionate people we build
                         </span>
                         <br/>
                     </Col>
@@ -18,34 +18,41 @@ class Lifeline extends Component {
                 <Row className="cards-container" gutter={16}>
                     <Col xs={24} lg={{span: 7, offset: 4}} className="card-wrapper">
                         <Card title="Innovation" bordered={false}>
-                            <p>Becoming agile and moving away from a rigid strategy and creating adaptable business
-                                practices through quick thinking. Thinking outside the box and creating solutions and
-                                processes that stray from the norm.</p>
+                            <p>We continually strive to redefine the standard of excellence in everything. Our focal
+                                point in growing the ideas that challenge the conventional views and drive
+                                innovation. </p>
+                            <p>To stay relevant in a rapidly evolving society, we continually improve alongside the
+                                changing needs of consumers.</p>
                         </Card>
                     </Col>
                     <Col xs={24} lg={{span: 7}} className="card-wrapper">
                         <Card title="Passion" bordered={false}>
-                            <p>That burning sensation that you can't itch and develops into motivation that makes you
-                                persistently work. This sensation, this passion manifests into the work we produce and
-                                transpires our story.</p>
+                            <p>The satisfaction in providing work that transpires our story, fuels our team to drive
+                                endlessly. Countless nights are met through creativity and optimising by pushing
+                                ourselves beyond natural limits. Passion is the Lavon testimony of pure engagement and
+                                dedication.</p>
                         </Card>
                     </Col>
                     <Col xs={24} lg={{span: 7, offset: 4}} className="card-wrapper">
                         <Card title="Integrity" bordered={false}>
-                            <p>Live true to who you are, be happy with the growth you are on – don’t feel compelled to
-                                be someone you are not. You are you and will always be you.</p>
+                            <p>The satisfaction in providing work that transpires our story, fuels our team to drive
+                                endlessly. Countless nights are met through creativity and optimising by pushing
+                                ourselves beyond natural limits. Passion is the Lavon testimony of pure engagement and
+                                dedication.</p>
                         </Card>
                     </Col>
                     <Col xs={24} lg={{span: 7}} className="card-wrapper">
                         <Card title="Perfection" bordered={false}>
-                            <p>The satisfaction of our outcome. That internal acknowledge that removes all doubt from
-                                our minds when we deliver.</p>
+                            <p>The complete focus on creating a product that exceeds the constant need for change.
+                                Reshaping the core to be on an end product that removes all doubt. Building on an agile
+                                need for improvement that allows growth through insight-driven results.</p>
                         </Card>
                     </Col>
                     <Col xs={24} lg={{span: 7, offset: 4}} className="card-wrapper">
                         <Card title="Compassion" bordered={false}>
-                            <p>If you want others to be happy, practice compassion. If you want to be happy, practice
-                                compassion. – Dalai Lama </p>
+                            <p>We are focusing on providing value through our journey. Acting on the knowledge of
+                                consumers by benefitting them through positive intent. The fixation on building each
+                                other to a new height that is self-sustainable through hard work.</p>
                         </Card>
                     </Col>
                 </Row>

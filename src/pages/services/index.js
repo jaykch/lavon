@@ -14,7 +14,7 @@ class Services extends Component {
     render() {
         return (
             <Layout id="services">
-                <PageBanner title="Our Services" subtitle="Please connect with us!" text={text}
+                <PageBanner title="Our Services" subtitle="Reshaping Australian businesses to stay relevant in the present" text={text}
                             button={<PremiumHashButton to="summary" text="View Services"/>}/>
                 <Content style={{margin: '0 16px'}}>
                     <Summary/>

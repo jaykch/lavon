@@ -37,9 +37,10 @@ class AppFooter extends Component {
                     </Col>
                     <Col xs={24} lg={{span: 3}}>
                         <h2>&nbsp;</h2>
-                        <span>512-206-xxxx | 512-777-xxxx</span><br/><br/>
-                        <span>Queen St, Melbourne </span><br/>
-                        <span>VIC, Australia 3004</span>
+                        <span>+61 3 9068 6180</span><br/><br/>
+                        <span>Suite 54/135  </span><br/>
+                        <span>Cardigan St, Carlton</span><br/>
+                        <span>Vic, Australia 3053</span>
                         <PremiumButton to="/contact-us" text="Get A Quote"/>
                     </Col>
                 </Row>

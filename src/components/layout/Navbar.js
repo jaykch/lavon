@@ -79,8 +79,8 @@ class Navbar extends Component {
                             <span className="nav-text">Our Roadmap</span>
                         </Link>
                     </Menu.Item>
+                    <UberButton to="/contact-us" text="Free Audit"/>
                 </Menu>
-                <UberButton to="/contact-us" text="Free Audit"/>
             </Sider>
         );
     }

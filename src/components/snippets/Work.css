@@ -14,7 +14,6 @@
 }
 
 .works-container {
-    padding: 4rem 0 3rem 0;
     display: flex;
     flex-flow: row wrap;
     margin-top: 2rem;
@@ -75,7 +74,6 @@
     }
 
     .work-snippet .works-container {
-        padding: 0;
         order: 2;
     }
 

@@ -7,10 +7,10 @@ class ClientsSnippet extends Component {
     render() {
         return (
             <Row className="clients-snippet">
-                <Col xs={24} lg={{span: 14, offset:5}} className="snippet-content">
+                <Col xs={24} lg={{span: 14, offset: 5}} className="snippet-content">
                     <Card bordered={false}>
                         <h1>Our Clients</h1>
-                        <span className="subtitle">Who we work with</span>
+                        <span className="subtitle">The extensions of Lavon</span>
                         <hr/>
                         <div className="client-list">
                             <span>EAGLE PIZZAS</span>
@@ -21,9 +21,9 @@ class ClientsSnippet extends Component {
                             <span>DYNAMECH ELECTRO POWER</span>
                         </div>
                         <blockquote>
-                            <p><em>"Lavon is everything you can ask for from an agency: experts, reliable, agile and
-                                with technology and knowledge that make the difficult easy. What would we do without
-                                them!"</em></p>
+                            <p><em>"Lavon is everything you can ask for from an agency! Working with them was great –
+                                every stage of development was clearly laid out, they made sure the company was a part
+                                of the entire process"</em></p>
                             <footer><cite>Dynopower Systems</cite>
                             </footer>
                         </blockquote>

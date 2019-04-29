@@ -6,17 +6,16 @@ import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
 const Step = Steps.Step;
 const {Content} = Layout;
-const bannerText = "Providing a new opportunity to help realign to a new direction for your brand. Allowing a full strategic realignment on your unique selling proposition, with visuals to complement. " +
-    "All Included: Brand Logo, Social Identity, Website, Internal Messaging, and Brand Strategy. ";
-const text1 = "We get to know your business, your industry, your competition and your customers. This involves meeting with your team, conducting some research, doing customer interviews and really drilling down to the core of how people see you now and how you want them to see you moving forward.";
-const text2 = "Defining your target audience; understanding their needs and motivations; being clear about the occasions and channels through which your brand will influence them. This is an analytical, rational, insight-led process. Giving you the creative leverage providing added value through your brand strategy.";
-const text3 = "Creating visuals that complement your brand voice, giving you a new path in communication. Transforming the channels to be representative ways to pull them to your quality and value your brand encompasses.";
+const bannerText = "Utilising resources to bring you a creative insight-driven branding that communicates your value proposition through new brand elements.";
+const text1 = "Becoming personal with your company – jumping into the depths of your industry, interviewing your team, observing your consumers; forming your current brand perceptual map.";
+const text2 = "With the analytical and, rational insight process allows the creative to leverage the new value proposition through a new voice. Giving you a second start to building attention through the new path that focuses purely on giving your consumers what they want.";
+const text3 = "icCreating visuals that complement your brand voice, giving you a new path in communication. Transforming the channels to be representative ways to pull them to your quality and value your brand encompasses.";
 
 class Restart extends Component {
     render() {
         return (
             <Layout id="restart">
-                <PageBanner title="Lavon Restart" subtitle="Please connect with us!" text={bannerText}
+                <PageBanner title="Lavon Restart" subtitle="Looking for a new direction?" text={bannerText}
                             button={<PremiumHashButton to="content-wrapper" text="View Details"/>}/>
                 <Content style={{margin: '0 16px'}}>
                     <Row className="content-wrapper">
@@ -24,7 +23,7 @@ class Restart extends Component {
                         <Col xs={24} lg={{span: 10}}>
                             <Card hoverable>
                                 <Steps direction="vertical">
-                                    <Step status="process" icon={<Icon type="loading"/>} title="Getting Married"
+                                    <Step status="process" icon={<Icon type="loading"/>} title="The Relationship"
                                           description={text1}/>
                                     <Step status="finish" title="Eyes on the 8-ball" description={text2}/>
                                     <Step status="finish" title="Bigger Picture" description={text3}/>

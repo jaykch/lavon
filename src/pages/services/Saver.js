@@ -7,9 +7,9 @@ import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
 const Step = Steps.Step;
 const {Content} = Layout;
-const bannerText = "The virtual management agency. Taking into account what you stand for and what you represent, our team will extend the virtual assistance by organising your marketing, production costs, cost reductions, and giving you time to focus on improving your day to day operations.";
-const text1 = "Understanding what your business embodies, looking at the communication and how you are portraying your self. Following through with your vision and our resources we create a strategy that benefits your long-term growth.";
-const text2 = "Becoming your complete virtual manager saving you time to re strategise in your daily operations.";
+const bannerText = "Leveraging our skill sets to bring you a virtual team to assist with your strategic activities; alleviating valuable hours for you to focus on daily operations.";
+const text1 = "Through your central idea we facilitate a lean approach towards long-term growth, maximising benefits through reducing over-heads.";
+const text2 = "Becoming your complete virtual manager, saving you time to re-strategise your daily operations.";
 
 class Saver extends Component {
     render() {
@@ -25,7 +25,7 @@ class Saver extends Component {
                                 <Steps direction="vertical">
                                     <Step status="process" icon={<Icon type="loading"/>} title="Value Focused"
                                           description={text1}/>
-                                    <Step status="finish" title="Ahead of the Pack " description={text2}/>
+                                    <Step status="finish" title="Ahead of the Pack" description={text2}/>
                                     <Step status="finish" title="The Benefits" description={<SaverTabs/>}/>
                                 </Steps>
                             </Card>

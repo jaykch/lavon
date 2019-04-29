@@ -67,14 +67,16 @@
 }
 
 .ant-layout-sider-zero-width-trigger {
-    right: 0;
-    color: #0a0a0a;
-    background: #fafafa;
+    font-size: 1.4rem;
+    top: .5rem;
+    right: .5rem;
     border-radius: 0;
+    color: #fafafa;
+    background: rgba(10, 10, 10, 0.65);
 }
 
 .ant-layout-sider-zero-width-trigger:hover {
-    background: #0a0a0a;
+    background: rgba(10, 10, 10, 0.65);
     color: #fafafa;
 }
 
@@ -82,6 +84,6 @@
 @media screen and (max-width: 992px){
     .navbar {
         border: none;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.8);
     }
 }

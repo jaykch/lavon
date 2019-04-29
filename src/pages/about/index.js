@@ -9,7 +9,7 @@ import ClientsSnippet from "../../components/snippets/Clients";
 
 const {Content} = Layout;
 
-const text = "Lavon is filled with friendly, bright colleagues that are more than happy to collaborate across business units.  We have a clear vision and plan to change the Australian business industry. We believe Lavon is a special place where our employees have an opportunity to do great work and thrive.";
+const text = "We focus on changing the work culture by creating an environment where every individual has the opportunity to work, learn and thrive. Fuelled with friendly and bright colleagues that are more than happy to collaborate across all business units.";
 
 class About extends Component {
     render() {

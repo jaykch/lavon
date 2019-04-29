@@ -53,8 +53,8 @@ class App extends Component {
                         <BackTop/>
                     </Router>
                     <Placeholder>
-                        {/*<h1 className="animate">LAVON</h1>*/}
-                        {/*<p>Please wait while the website loads</p>*/}
+                        <h1 className="animate">LAVON</h1>
+                        <p>Please wait while the website loads</p>
                     </Placeholder>
                 </Preloader>
             </Provider>
