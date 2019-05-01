@@ -4,6 +4,17 @@ import {Col, Layout, Row, Steps, Icon, Card} from "antd";
 import PageBanner from "../../components/banners/Page";
 import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
+// Analytics Code
+import ReactGA from 'react-ga';
+import ReactPixel from 'react-facebook-pixel';
+
+const trackPage = (page) => {
+    ReactGA.set({
+        page
+    });
+    ReactGA.pageview(page);
+};
+
 const Step = Steps.Step;
 const {Content} = Layout;
 const bannerText = "We provide auditing capabilities of a marketing agency coupled with the fine-tuned roadmap of our creative team; we bring new consumer insight driven paths to companies. With an addition of quarterly events to bring you closer to B2B Leaders.";
@@ -12,6 +23,13 @@ const text2 = "Our team designs a customized solution and implementation plan to
 const text3 = "Once you are a part of our partnership team, we connect you through our B2B mentoring platform that allows you to build and gain with each other. Hosting quarterly events that bring you keynote speakers and other B2B thought leaders that bring you exceptional value. ";
 
 class Partnerships extends Component {
+
+    componentDidMount() {
+        const page = this.props.location.pathname;
+        trackPage(page);
+        ReactPixel.pageView();
+    }
+
     render() {
         return (
             <Layout id="partnerships">

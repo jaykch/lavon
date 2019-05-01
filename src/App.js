@@ -10,7 +10,6 @@ import {Preloader, Placeholder} from 'react-preloading-screen';
 import 'react-preloading-screen/raf-polyfill';
 
 import Home from "./pages/home"
-import Navbar from "./components/layout/Navbar";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Roadmap from "./pages/roadmap";
@@ -21,23 +20,34 @@ import Restart from "./pages/services/Restart";
 import Saver from "./pages/services/Saver";
 import Quotation from "./pages/quotation";
 import Audit from "./pages/audit";
+import ScrollToTop from "./components/functionality/ScrollToTop";
 
 
 //Analytics Code
 import ReactGA from 'react-ga';
-import ScrollToTop from "./components/functionality/ScrollToTop";
+import ReactPixel from 'react-facebook-pixel';
 
 ReactGA.initialize('UA-82200184-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
+
+// Facebook Pixel Code
+const advancedMatching = {em: 'marketing@lavon.com.au'}; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/pixel-with-ads/conversion-tracking#advanced_match
+const options = {
+    autoConfig: true, 	// set pixel's autoConfig
+    debug: false, 		// enable logs
+};
+
+ReactPixel.init('2016750905297457', advancedMatching, options);
+ReactPixel.pageView();
+
 
 class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <Preloader fadeDuration={1500} className="loader">
+                <Preloader fadeDuration={500} className="loader">
                     <Router>
                         <ScrollToTop>
-                            <Navbar/>
                             <Route exact path="/" component={Home}/>
                             <Route exact path="/services" component={Services}/>
                             <Route exact path="/services/partnerships" component={Partnerships}/>

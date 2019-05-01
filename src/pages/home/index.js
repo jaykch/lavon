@@ -3,7 +3,6 @@ import {Layout} from 'antd';
 import './Home.css';
 
 import HomeBanner from "../../components/banners/Home"
-
 import ClientsSnippet from "../../components/snippets/Clients";
 import LocationSnippet from "../../components/snippets/Location";
 import ProductsSnippet from "../../components/snippets/Services";

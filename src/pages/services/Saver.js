@@ -5,6 +5,17 @@ import PageBanner from "../../components/banners/Page";
 import SaverTabs from "./SaverTabs";
 import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
+// Analytics Code
+import ReactGA from 'react-ga';
+import ReactPixel from 'react-facebook-pixel';
+
+const trackPage = (page) => {
+    ReactGA.set({
+        page
+    });
+    ReactGA.pageview(page);
+};
+
 const Step = Steps.Step;
 const {Content} = Layout;
 const bannerText = "Leveraging our skill sets to bring you a virtual team to assist with your strategic activities; alleviating valuable hours for you to focus on daily operations.";
@@ -12,6 +23,13 @@ const text1 = "Through your central idea we facilitate a lean approach towards l
 const text2 = "Becoming your complete virtual manager, saving you time to re-strategise your daily operations.";
 
 class Saver extends Component {
+
+    componentDidMount() {
+        const page = this.props.location.pathname;
+        trackPage(page);
+        ReactPixel.pageView();
+    }
+
     render() {
         return (
             <Layout id="saver">

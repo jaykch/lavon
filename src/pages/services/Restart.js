@@ -4,6 +4,17 @@ import {Card, Col, Icon, Layout, Row, Steps} from "antd";
 import PageBanner from "../../components/banners/Page";
 import PremiumHashButton from "../../components/buttons/PremiumHashButton";
 
+// Analytics Code
+import ReactGA from 'react-ga';
+import ReactPixel from 'react-facebook-pixel';
+
+const trackPage = (page) => {
+    ReactGA.set({
+        page
+    });
+    ReactGA.pageview(page);
+};
+
 const Step = Steps.Step;
 const {Content} = Layout;
 const bannerText = "Utilising resources to bring you a creative insight-driven branding that communicates your value proposition through new brand elements.";
@@ -12,6 +23,13 @@ const text2 = "With the analytical and, rational insight process allows the crea
 const text3 = "icCreating visuals that complement your brand voice, giving you a new path in communication. Transforming the channels to be representative ways to pull them to your quality and value your brand encompasses.";
 
 class Restart extends Component {
+
+    componentDidMount() {
+        const page = this.props.location.pathname;
+        trackPage(page);
+        ReactPixel.pageView();
+    }
+
     render() {
         return (
             <Layout id="restart">

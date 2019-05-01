@@ -35,10 +35,11 @@ class Lifeline extends Component {
                     </Col>
                     <Col xs={24} lg={{span: 7, offset: 4}} className="card-wrapper">
                         <Card title="Integrity" bordered={false}>
-                            <p>The satisfaction in providing work that transpires our story, fuels our team to drive
-                                endlessly. Countless nights are met through creativity and optimising by pushing
-                                ourselves beyond natural limits. Passion is the Lavon testimony of pure engagement and
-                                dedication.</p>
+                            <p>We are committed to conducting ourselves in a manner consistent with the highest
+                                standards of integrity. We are honest, ethical and fair in all our activities. We keep
+                                our word, deliver on our promises and acknowledge our mistakes. In all that we do, we
+                                believe that our reputation is of outmost importance than any other short-term rewards —
+                                focusing on complete transparency through all operations.</p>
                         </Card>
                     </Col>
                     <Col xs={24} lg={{span: 7}} className="card-wrapper">
