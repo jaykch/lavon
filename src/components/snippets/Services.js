@@ -10,7 +10,7 @@ class ProductsSnippet extends Component {
             <div className="services-snippet">
                 <Row>
                     <Col xs={24} lg={{span: 15}} className="snippet-content">
-                        <h1>Our Services</h1>
+                        <h1>Premium Services</h1>
                         <span
                             className="subtitle">Reshaping Australian businesses to stay relevant in the present</span>
                         <br/>

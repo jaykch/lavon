@@ -44,12 +44,11 @@ class WorkSnippet extends Component {
                     <h1>Our Work</h1>
                     <span className="subtitle">Delivering Perfection</span>
                     <hr/>
-                    <p>It is possible to have a website where it obtains results and being an integral part of your
-                        commercial strategy. It is feasible in creating a product bespoke to your brand/company while
-                        merging innovation, profitability and growth. We are never happy to settle with “it can work”;
-                        the work at Lavon has to be ‘perfect’.
+                    <p>In past year, we have revamped the online presence of multiple businesses across the globe. It is
+                        possible to have a website which gives results. We create products bespoke to your brand/company
+                        while merging innovation, profitability and growth. <br/>We are never happy to settle with “it can
+                        work”; the work at Lavon has to be ‘perfect’.
                     </p>
-                    <p>Great work comes from great ideas, great strategy and great people.</p>
                 </Col>
             </Row>
         );

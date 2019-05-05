@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
+import './Social.css';
 import {Col, Row} from "antd";
 
-class ContactSnippet extends Component {
+class SocialSnippet extends Component {
     render() {
         return (
-            <Row className="web-snippet">
+            <Row className="social-snippet">
                 <Col xs={24} lg={{span: 14, offset: 5}} className="snippet-content">
-                    <h1>Contact Form</h1>
+                    <h1>Social Media</h1>
                 </Col>
             </Row>
         );
     }
 }
 
-export default ContactSnippet;
+export default SocialSnippet;
