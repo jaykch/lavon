@@ -1,3 +1,126 @@
-.web-snippet .subtitle{
+.web-snippet {
+    padding: 2rem 1.5rem;
+    margin: 2rem 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+    background: #f6f6f6 url("../../media/images/misc/city.svg") center 40% no-repeat;
+    background-size: 99%;
+}
+
+.web-snippet .snippet-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    background-color: white;
+    padding: 2rem 0;
+}
+
+.web-snippet .services div.service{
+    cursor: pointer;
+}
+
+.web-snippet .services div.service ul {
+    max-height: 10px;
+    transition: max-height 0.45s ease-out;
+    overflow: hidden;
+    text-align: left;
+}
+
+.web-snippet .services div.service:hover ul {
+    max-height: 500px;
+    transition: max-height 0.75s ease-in;
+}
+
+.web-snippet .services div.service .headline h3, .web-snippet .services div.service .headline .anticon{
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.web-snippet .services div.service:hover h3, .web-snippet .services div.service:hover i {
+    color: #b6454b;
+}
+
+.web-snippet .services div.service > .headline{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.web-snippet .services div.service > .headline .anticon{
+    font-size: 2rem;
+}
+
+.web-snippet .services div.service > .headline h3{
+    line-height: 1.15;
+    letter-spacing: .1rem;
+    text-rendering: optimizeLegibility;
+}
+
+.web-snippet .services div.service > .headline h3 > .anticon{
+    font-size: inherit;
+}
+
+.web-snippet .services div.service > .headline h3, .web-snippet .services div.service ul{
+    margin-left: 1rem;
+}
+
+.web-snippet .services div.service ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.web-snippet .services div.service ul li::before{
+    content: "- ";
+}
+
+.web-snippet .services div.service li {
+    opacity: 0;
+    -webkit-transition: all 0.65s ease;
+    -moz-transition: all 0.65s ease;
+    -ms-transition: all 0.65s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+
+    line-height: 1.68;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+}
+
+.web-snippet .services div.service:hover li {
+    opacity: 1;
+}
+
+.web-snippet .snippet-content .services {
+    padding-left: 4rem;
+}
+
+.web-snippet .subtitle {
     display: block;
+}
+
+.web-snippet img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.web-snippet .image-container{
+    align-self: center;
 }

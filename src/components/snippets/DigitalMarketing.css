@@ -1,3 +1,51 @@
+.digital-marketing-snippet {
+    padding: 2rem 0;
+    margin: 2rem 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    background: #f6f6f6;
+
+    /*background: #f6f6f6 url("../../media/images/misc/city.svg") center 40% no-repeat;*/
+    /*background-size: 99%;*/
+}
+
+.digital-marketing-snippet img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.digital-marketing-snippet .image-container{
+    padding-left:1rem;
+    align-self: center;
+}
+
+.digital-marketing-snippet ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: .5rem;
+}
+
 .digital-marketing-snippet .subtitle {
     display: block;
+}
+
+.digital-marketing-snippet .service-container{
+    text-align: center;
+}
+.digital-marketing-snippet .service-container .anticon{
+    font-size: 9rem;
+    padding: 1.2rem;
+    border: solid 3px black;
+    border-radius: 50%;
+}
+
+.digital-marketing-snippet .service-container,.digital-marketing-snippet .header{
+    padding: 0 1rem;
 }
