@@ -10,7 +10,7 @@ class ProductsSnippet extends Component {
             <div className="services-snippet">
                 <Row>
                     <Col xs={24} lg={{span: 15}} className="snippet-content">
-                        <h1>Premium Services</h1>
+                        <h1>Exclusive Services</h1>
                         <span
                             className="subtitle">Reshaping Australian businesses to stay relevant in the present</span>
                         <br/>
@@ -24,15 +24,15 @@ class ProductsSnippet extends Component {
                                 addition of quarterly events to bring you closer to B2B Leaders.</p>
                         </Card>
                     </Col>
-                    <Col xs={24} lg={{span: 5}} className="card-wrapper">
-                        <Card title="Lavon Restart" bordered={false} hoverable>
-                            <p>We utilise resources to bring you a creative insight-driven branding that communicates
-                                your value proposition through new brand elements. Creating a new chance to recapture
-                                lost market share through the new value proposition.</p>
-                            <p><strong>This may include:</strong> Brand Logo, Social Identity, Website, Internal
-                                Messaging, and a new Brand Strategy. </p>
-                        </Card>
-                    </Col>
+                    {/*<Col xs={24} lg={{span: 5}} className="card-wrapper">*/}
+                    {/*    <Card title="Lavon Restart" bordered={false} hoverable>*/}
+                    {/*        <p>We utilise resources to bring you a creative insight-driven branding that communicates*/}
+                    {/*            your value proposition through new brand elements. Creating a new chance to recapture*/}
+                    {/*            lost market share through the new value proposition.</p>*/}
+                    {/*        <p><strong>This may include:</strong> Brand Logo, Social Identity, Website, Internal*/}
+                    {/*            Messaging, and a new Brand Strategy. </p>*/}
+                    {/*    </Card>*/}
+                    {/*</Col>*/}
                     <Col xs={24} lg={{span: 5}} className="card-wrapper">
                         <Card title="Lavon Saver" bordered={false} hoverable>
                             <p>Leveraging our skill sets bringing you a virtual team that capitalises on lost market

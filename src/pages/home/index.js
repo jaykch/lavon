@@ -10,7 +10,6 @@ import ContactSnippet from "../../components/snippets/Contact";
 import WebSnippet from "../../components/snippets/Web";
 import BrandingSnippet from "../../components/snippets/Branding";
 import SocialSnippet from "../../components/snippets/Social";
-import DigitalMarketingSnippet from "../../components/snippets/DigitalMarketing";
 
 const {Content} = Layout;
 
@@ -22,12 +21,11 @@ class Home extends Component {
                 <Content style={{margin: '0 16px'}}>
                     <WebSnippet/>
                     <BrandingSnippet/>
-                    <ContactSnippet/>
-                    <SocialSnippet/>
-                    <DigitalMarketingSnippet/>
                     <WorkSnippet/>
+                    <ContactSnippet/>
                     <ClientsSnippet/>
                     <ProductsSnippet/>
+                    <SocialSnippet/>
                 </Content>
             </Layout>
         );
