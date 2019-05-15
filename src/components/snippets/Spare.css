@@ -1,40 +1,31 @@
 .web-snippet {
-    padding: 2rem 0;
+    padding: 2rem 1.5rem;
     margin: 2rem 0;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-
-    -webkit-justify-content: center;
-    justify-content: center;
-}
-
-.web-snippet .snippet-wrapper{
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-
-    max-width: 1200px;
-}
-
-.web-snippet .image-wrapper{
-    height: 100%;
-    background: #f6f6f6 url("../../media/images/gif/export.gif") center no-repeat;
-    background-size: cover;
-}
-
-.web-snippet .snippet-content {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: column nowrap;
     flex-flow: column nowrap;
     -webkit-justify-content: center;
     justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+    background: #f6f6f6 url("../../media/images/misc/city.svg") center 40% no-repeat;
+    background-size: 99%;
+}
+
+.web-snippet .snippet-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
 
     background-color: white;
-    padding: 2rem 4rem;
+    padding: 2rem 0;
 }
 
 .web-snippet .services div.service{
@@ -123,4 +114,13 @@
 
 .web-snippet .subtitle {
     display: block;
+}
+
+.web-snippet img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.web-snippet .image-container{
+    align-self: center;
 }

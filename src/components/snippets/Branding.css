@@ -1,5 +1,5 @@
 .branding-snippet {
-    padding: 2rem 1.5rem;
+    padding: 0 0 2rem;
     margin: 2rem 0;
     display: -webkit-flex;
     display: flex;
@@ -10,24 +10,39 @@
     -webkit-align-items: center;
     align-items: center;
 
-    background: #ffffff;
-
     /*background: #f6f6f6 url("../../media/images/misc/city.svg") center 40% no-repeat;*/
     /*background-size: 99%;*/
 }
 
+.branding-snippet .snippet-wrapper{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+    max-width: 1200px;
+}
+
+.branding-snippet .image-wrapper{
+    height: 100%;
+    background: #f6f6f6 url("../../media/images/gif/export.gif") center no-repeat;
+    background-size: cover;
+}
+
+.branding-snippet .snippet-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    background-color: white;
+    padding: 2rem 4rem;
+}
+
 .branding-snippet .subtitle{
     display: block;
-}
-
-.branding-snippet img {
-    width: 100%;
-    vertical-align: middle;
-}
-
-.branding-snippet .image-container{
-    padding-left:1rem;
-    align-self: center;
 }
 
 .branding-snippet ul{
