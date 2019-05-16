@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './Branding.css';
 import {Col, Icon, Row} from "antd";
-import web from "../../media/images/gif/web.gif";
 
 class BrandingSnippet extends Component {
     render() {
@@ -14,18 +13,24 @@ class BrandingSnippet extends Component {
                     <Col xs={24} lg={{span: 12}} className="snippet-content">
                         <h1>BRANDING
                         </h1>
-                        <span className="subtitle">Branding strategy and other bulshit</span>
-                        <p>The essence of what your brand aspires to be. We work with you to build your brand’s
-                            personality from scratch. Your final brand design will be completely unique, void of cliché
-                            and perfectly aligned with your vision.</p>
-                        <span>Our branding services include:</span>
-                        <ul>
-                            <li>- Brand Design</li>
-                            <li>- Brand Design</li>
-                            <li>- Brand Design</li>
-                            <li>- Brand Design</li>
-                            <li>- Brand Design</li>
-                            <li>- Brand Design</li>
+                        <span className="subtitle">Our branding services include:</span>
+                        <ul className="services">
+                            <li className="service"><Icon type="box-plot" theme="filled"/>
+                            <h3>Brand Design</h3>
+                                <span>Capture the essence of what your brand aspires to be.</span>
+                            </li>
+                            <li className="service"><Icon type="box-plot" theme="filled"/>
+                                <h3>Brand Design</h3>
+                                <span>Capture the essence of what your brand aspires to be.</span>
+                            </li>
+                            <li className="service"><Icon type="box-plot" theme="filled"/>
+                                <h3>Brand Design</h3>
+                                <span>Capture the essence of what your brand aspires to be.</span>
+                            </li>
+                            <li className="service"><Icon type="box-plot" theme="filled"/>
+                                <h3>Brand Design</h3>
+                                <span>Capture the essence of what your brand aspires to be.</span>
+                            </li>
                         </ul>
                     </Col>
 

@@ -38,18 +38,52 @@
     justify-content: center;
 
     background-color: white;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
 }
 
 .branding-snippet .subtitle{
     display: block;
 }
 
-.branding-snippet ul{
+.branding-snippet ul.services{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
     list-style-type: none;
     padding-left: 0;
     margin-top: .5rem;
     line-height: 1.68;
     letter-spacing: .1rem;
     font-size: .9rem;
+}
+
+.branding-snippet ul.services .service{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    margin: .7rem;
+    width: 225px;
+}
+
+.branding-snippet ul.services .service span{
+    font-size: .8rem;
+}
+
+
+.branding-snippet ul.services .anticon{
+    font-size: 4.5rem;
+    border-radius: 50%;
+    background-color: #e8ebec;
+    color:#2E3947;
+    padding: 1.5rem;
+    width: 125px;
+
 }

@@ -1,7 +1,7 @@
 .work-snippet {
-    background: linear-gradient(rgba(139, 51, 57, 0.5), rgba(139, 51, 57, 0.8)), url("../../media/images/banners/3.jpg") center no-repeat fixed;
-    background-size: cover;
-    color: #fafafa;
+    /*background: linear-gradient(rgba(139, 51, 57, 0.5), rgba(139, 51, 57, 0.8)), url("../../media/images/banners/3.jpg") center no-repeat fixed;*/
+    /*background-size: cover;*/
+    color: #0a0a0a;
     padding: 0 1.5rem;
 
     display: -webkit-flex;
@@ -19,14 +19,13 @@
 }
 
 .work-snippet hr {
-    background-color: #fafafa;
+    color: #0a0a0a;
 }
 
 .works-container {
     display: flex;
     flex-flow: row wrap;
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .works-container .work-showcase {
@@ -36,8 +35,8 @@
     height: 6rem;
     width: 6rem;
     margin: 1rem;
-    border: 2px solid #fafafa;
-    color: #fafafa;
+    border: 2px solid #0a0a0a;
+    color: #0a0a0a;
     text-transform: uppercase;
     font-weight: bolder;
     line-height: 1.68;
@@ -48,8 +47,8 @@
 /*Animation Code*/
 
 .work-showcase {
-    background-image: -webkit-linear-gradient(30deg, #fafafa 50%, transparent 50%);
-    background-image: linear-gradient(30deg, #fafafa 50%, transparent 50%);
+    background-image: -webkit-linear-gradient(30deg, #0a0a0a 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #0a0a0a 50%, transparent 50%);
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -59,11 +58,11 @@
 
 .work-showcase:hover {
     background-position: 0%;
-    color: #0a0a0a;
+    color: #fafafa;
 }
 
 .work-snippet .snippet-content {
-    padding: 4rem 0 3rem 0;
+    /*padding: 4rem 0 0 0;*/
 }
 
 

@@ -11,9 +11,14 @@
     align-items: center;
 
     background: #8d3b41;
+    color: #fafafa;
 
     /*background: #f6f6f6 url("../../media/images/misc/city.svg") center 40% no-repeat;*/
     /*background-size: 99%;*/
+}
+
+.social-snippet h1{
+    color: inherit;
 }
 
 .social-snippet .subtitle {
