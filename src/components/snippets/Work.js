@@ -10,12 +10,6 @@ class WorkSnippet extends Component {
                     <h1>Our Work</h1>
                     <span className="subtitle">Delivering Perfection</span>
                     <hr/>
-                    <p>In past year, we have revamped the online presence of multiple businesses across the globe.
-                        It is
-                        possible to have a website which gives results. We create products bespoke to your
-                        brand/company
-                        while merging innovation, profitability and growth.
-                    </p>
                     <div className="works-container">
                         <a href="http://www.dynamechelectropower.com/" target="_blank" rel="noopener noreferrer"
                            className="work-showcase">

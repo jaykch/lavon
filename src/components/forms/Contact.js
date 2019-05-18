@@ -176,10 +176,10 @@ class ContactForm extends Component {
                         ],
                     })(
                         <Select mode="multiple" placeholder="Please select the services you are interested in">
+                            <Option value="Web Services">Lavon Restart</Option>
+                            <Option value="Branding Services">Smaller Services</Option>
                             <Option value="Lavon Partnerships">Lavon Partnerships</Option>
-                            <Option value="Lavon Restart">Lavon Restart</Option>
-                            <Option value="Lavon Saver">Lavon Saver</Option>
-                            <Option value="Smaller Services">Smaller Services</Option>
+                            <Option value="Cloud Management">Lavon Saver</Option>
                             <Option value="Get a quote">Get a quote</Option>
                             <Option value="Free Audit">Free Audit</Option>
                         </Select>

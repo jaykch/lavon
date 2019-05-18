@@ -8,7 +8,7 @@ import {Provider} from 'react-redux';
 import store from "./store";
 import {Preloader, Placeholder} from 'react-preloading-screen';
 import 'react-preloading-screen/raf-polyfill';
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Home from "./pages/home"
 import About from "./pages/about";
 import Contact from "./pages/contact";
@@ -46,13 +46,18 @@ class App extends Component {
         return (
             <Provider store={store}>
                 <Preloader fadeDuration={500} className="loader">
+                    <MessengerCustomerChat
+                        pageId="<PAGE_ID>"
+                        appId="<APP_ID>"
+                        htmlRef="<REF_STRING>"
+                    />
                     <Router>
                         <ScrollToTop>
                             <Route exact path="/" component={Home}/>
                             <Route exact path="/services" component={Services}/>
                             <Route exact path="/services/partnerships" component={Partnerships}/>
                             <Route exact path="/services/restart" component={Restart}/>
-                            <Route exact path="/services/saver" component={Saver}/>
+                            <Route exact path="/services/cloud-management" component={Saver}/>
                             <Route exact path="/about-us" component={About}/>
                             <Route exact path="/contact-us" component={Contact}/>
                             <Route exact path="/quotation" component={Quotation}/>

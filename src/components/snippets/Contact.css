@@ -27,8 +27,9 @@
     display: block;
 }
 
-.contact-snippet .premium-button{
+.contact-snippet .premium-outbound-link{
     background-color: #0a0a0a;
     border: 2px solid #0a0a0a;
     margin: 1rem 0;
+    width: 200px;
 }

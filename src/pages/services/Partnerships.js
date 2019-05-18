@@ -18,9 +18,9 @@ const trackPage = (page) => {
 const Step = Steps.Step;
 const {Content} = Layout;
 const bannerText = "We provide auditing capabilities of a marketing agency coupled with the fine-tuned roadmap of our creative team; we bring new consumer insight driven paths to companies. With an addition of quarterly events to bring you closer to B2B Leaders.";
-const text1 = "We will watch your operations and understand how it lives and breathes on a day to day bases. This builds on the knowledge of how you are, performing an audit and understanding how we can strategically align you for the future.  We get to know you - your strengths, challenges, history, and current needs - and we get to know your market. Together with your project lead and senior management team, we define the problem and create goals to solve it.";
-const text2 = "Our team designs a customized solution and implementation plan to meet your objectives within the time frame required. We work closely with your project lead and management team to make sure the plan is a good fit with realistic objectives and outcomes. We stay with you every step of the way while your solution is rolling out, guiding implementation, tweaking elements of the plan as we get feedback from employees and customers, and measuring success using custom analytics.";
-const text3 = "Once you are a part of our partnership team, we connect you through our B2B mentoring platform that allows you to build and gain with each other. Hosting quarterly events that bring you keynote speakers and other B2B thought leaders that bring you exceptional value. ";
+const text1 = "Watching your operations and understanding how you operate through an in-depth audit providing insight on how to strategically align your business. Taking a look at your strengths, weaknesses, your engagement to your community, and the execution of strategic activities.";
+const text2 = "Designing a customised solution and implementation plan, we work closely with your management team to ensure the time-frame fits with realistic objectives and outcomes. Guiding the process of implementation through on-going review through a lean and agile approach. Focusing on your end-consumers first and ensuring their satisfaction is the priority of the project.";
+const text3 = "Once connected, we provide long-term growth through B2B mentoring programs allowing you to build and gain with other businesses. Hosting quarterly events bringing keynote speakers and other B2B thought leaders to provide growth beyond the business operations.";
 
 class Partnerships extends Component {
 
@@ -42,9 +42,9 @@ class Partnerships extends Component {
                         <Col xs={24} lg={{span: 10}}>
                             <Card hoverable>
                                 <Steps direction="vertical">
-                                    <Step status="process" icon={<Icon type="loading"/>} title="Needle in a Haystack "
+                                    <Step status="process" icon={<Icon type="loading"/>} title="First Stage"
                                           description={text1}/>
-                                    <Step status="finish" title="Ahead of the Pack " description={text2}/>
+                                    <Step status="finish" title="Second Stage" description={text2}/>
                                     <Step status="finish" title="The Benefits" description={text3}/>
                                 </Steps>
                             </Card>

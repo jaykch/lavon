@@ -10,6 +10,7 @@ import ContactSnippet from "../../components/snippets/Contact";
 import WebSnippet from "../../components/snippets/Web";
 import BrandingSnippet from "../../components/snippets/Branding";
 import SocialSnippet from "../../components/snippets/Social";
+import ClientQuoteSnippet from "../../components/snippets/ClientQuote";
 
 const {Content} = Layout;
 
@@ -18,14 +19,13 @@ class Home extends Component {
         return (
             <Layout id="home">
                 <HomeBanner/>
-                <Content style={{margin: '0 16px'}}>
+                <Content>
                     <WebSnippet/>
                     <BrandingSnippet/>
                     <WorkSnippet/>
                     <ContactSnippet/>
-                    <ClientsSnippet/>
+                    <ClientQuoteSnippet/>
                     <ProductsSnippet/>
-                    <SocialSnippet/>
                 </Content>
             </Layout>
         );

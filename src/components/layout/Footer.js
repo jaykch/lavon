@@ -21,7 +21,7 @@ class AppFooter extends Component {
                         <h2>Navigation</h2>
                         <ul>
                             <li><Link to="/" className="footer-link">Home</Link></li>
-                            <li><Link to="/services" className="footer-link">Our Services</Link></li>
+                            {/*<li><Link to="/services" className="footer-link">Our Services</Link></li>*/}
                             <li><Link to="/about-us" className="footer-link">Life At Lavon</Link></li>
                             <li><Link to="/contact-us" className="footer-link">Get Connected</Link></li>
                             <li><Link to="/roadmap" className="footer-link">Our Roadmap</Link></li>
@@ -31,8 +31,8 @@ class AppFooter extends Component {
                         <h2>Services</h2>
                         <ul>
                             <li><Link to="/services/partnerships" className="footer-link">Partnerships</Link></li>
-                            <li><Link to="/services/restart" className="footer-link">Restart</Link></li>
-                            <li><Link to="/services/saver" className="footer-link">Saver</Link></li>
+                            {/*<li><Link to="/services/restart" className="footer-link">Restart</Link></li>*/}
+                            <li><Link to="/services/cloud-management" className="footer-link">Cloud Management</Link></li>
                         </ul>
                     </Col>
                     <Col xs={24} lg={{span: 3}}>

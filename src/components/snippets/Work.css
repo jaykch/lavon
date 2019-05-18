@@ -25,6 +25,8 @@
 .works-container {
     display: flex;
     flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
     margin-top: 2rem;
 }
 
@@ -32,8 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6rem;
-    width: 6rem;
+    height: 8rem;
+    width: 8rem;
     margin: 1rem;
     border: 2px solid #0a0a0a;
     color: #0a0a0a;
@@ -41,7 +43,7 @@
     font-weight: bolder;
     line-height: 1.68;
     letter-spacing: .2rem;
-    font-size: .5rem;
+    font-size: .7rem;
 }
 
 /*Animation Code*/
@@ -81,11 +83,7 @@
         flex-flow: column nowrap;
     }
 
-    .work-snippet .works-container {
-        order: 2;
-    }
-
-    .work-snippet .snippet-content {
-        order: 1;
+    .work-snippet .works-container .work-showcase:nth-child(n+5){
+        display: none;
     }
 }

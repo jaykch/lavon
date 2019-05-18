@@ -1,0 +1,91 @@
+.client-quote-snippet {
+    padding: 2rem 1rem;
+    /*background: #f6f6f6 url("../../media/images/misc/city2.svg") center 40% no-repeat;*/
+    /*background-size: 99%;*/
+    background: #0A151C;
+    margin-top: 200px;
+}
+
+.client-quote-snippet .snippet-content blockquote {
+    text-align: center;
+    z-index: 10;
+    max-width: 700px;
+    line-height: 1.68;
+    letter-spacing: .14rem;
+    font-size: 1.4rem;
+    color: #fafafa;
+}
+
+.client-quote-snippet .snippet-content blockquote em{
+    font-weight: bold;
+}
+
+.client-quote-snippet h1 {
+    color: inherit;
+}
+
+.client-quote-snippet p {
+    text-align: center;
+}
+
+.client-quote-snippet hr {
+    width: 50%;
+    background-color: rgba(173, 173, 173, 0.27);
+}
+
+.client-quote-snippet .uber-button {
+    max-width: 160px;
+    margin: auto;
+}
+
+/*Responsive Code*/
+@media screen and (max-width: 768px) {
+    .client-quote-snippet {
+        background-size: 400%;
+    }
+}
+
+/*Waves Code*/
+
+.ocean {
+    bottom: 0;
+    left: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.wave {
+    background: url("../../media/images/misc/wave.svg") repeat-x;
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 15s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+}
+.wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 15s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+}
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px;
+    }
+}
+@keyframes swell {
+    0%, 100% {
+        transform: translate3d(0, -25px, 0);
+    }
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+}

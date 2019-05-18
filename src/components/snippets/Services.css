@@ -1,20 +1,21 @@
 .services-snippet {
     padding: 2rem 1.5rem;
-    margin: 2rem 0;
-    background: #f6f6f6 url("../../media/images/misc/city.svg") center 40% no-repeat;
+    background: #0A151C url("../../media/images/misc/city2.svg") center 44% no-repeat;
     background-size: 99%;
+    color: #fafafa;
+
+    text-align: center;
 }
 
-.services-snippet .button {
-    background: #000000;
+.services-snippet h1{
+    color: inherit;
+}
+
+.services-snippet .uber-button {
     padding: 16px;
     display: block;
     max-width: 210px;
     text-align: center;
-
-    -webkit-box-shadow: 10px 9px 7px -7px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 9px 7px -7px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 9px 7px -7px rgba(0, 0, 0, 0.75);
 }
 
 .services-snippet .arrow {
@@ -39,11 +40,21 @@
 
 .services-snippet p {
     line-height: 2;
+    margin-bottom: 64px;
 }
 
 .services-snippet .ant-row{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+}
+
+.services-snippet .cards-container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
     justify-content: center;
 }
 
@@ -55,6 +66,12 @@
 
 .services-snippet .card-wrapper .ant-card{
     height: 100%;
+}
+
+.services-snippet .card-wrapper .ant-card .uber-button{
+    width: 210px;
+    position: absolute;
+    bottom: 20px;
 }
 
 /*Responsive Code*/

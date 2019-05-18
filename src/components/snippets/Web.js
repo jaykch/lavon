@@ -6,53 +6,53 @@ class WebSnippet extends Component {
     render() {
         return (
             <Row className="web-snippet">
-                <Col lg={24} className="snippet-wrapper">
+                <Col span={24} className="snippet-wrapper">
                     <Col xs={24} lg={{span: 12}} className="snippet-content">
-                        <h1>Web Services</h1>
-                        <span className="subtitle">Bespoke Software Solutions</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
+                        <h1>Digital Services</h1>
+                        <span className="subtitle">Websites for the future</span>
                         <br/>
                         <div className="services">
                             <div className="service">
                                 <div className="headline">
-                                    <Icon type="desktop"/>
-                                    <h3>Web development <Icon type="down"/></h3>
+                                    <Icon type="coffee"/>
+                                    <h3>Getting started<Icon type="down"/></h3>
                                 </div>
                                 <ul>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
+                                    <li>Customized Squarespace Site</li>
+                                    <li>Logo and Elements</li>
+                                    <li>Basic Bootstrap Site</li>
+                                    <li>Creating around Idea</li>
                                 </ul>
                             </div>
                             <div className="service">
                                 <div className="headline">
-                                    <Icon type="desktop"/>
-                                    <h3>Updating existing <Icon type="down"/></h3>
+                                    <Icon type="shop"/>
+                                    <h3>Improved performance<Icon type="down"/></h3>
                                 </div>
                                 <ul>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
+                                    <li>Analytics &amp; Strategy</li>
+                                    <li>SEO Optimisation</li>
+                                    <li>UI/UX Design</li>
+                                    <li>Development from Scratch</li>
                                 </ul>
                             </div>
                             <div className="service">
                                 <div className="headline">
-                                    <Icon type="desktop"/>
-                                    <h3>Analytics <Icon type="down"/></h3>
+                                    <Icon type="bank"/>
+                                    <h3>Enterprise ready<Icon type="down"/></h3>
                                 </div>
                                 <ul>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
-                                    <li>Lorem</li>
+                                    <li>Custom E-commerce</li>
+                                    <li>Backend &amp; REST API</li>
+                                    <li>Hybrid App Development</li>
+                                    <li>Administrative Dashboards</li>
+                                    <li>Data Management</li>
+                                    <li>Automation through Software</li>
                                 </ul>
                             </div>
                         </div>
                     </Col>
-                    <Col xs={24} lg={{span: 12}} className="image-container">
+                    <Col md={0} lg={{span: 12}} className="image-container">
                         <div className="image-wrapper"></div>
                     </Col>
                 </Col>

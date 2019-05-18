@@ -16,37 +16,39 @@ class ProductsSnippet extends Component {
                         <br/>
                     </Col>
                 </Row>
-                <Row className="cards-container" gutter={16}>
-                    <Col xs={24} lg={{span: 5}} className="card-wrapper">
-                        <Card title="Lavon Partnerships " bordered={false} hoverable>
-                            <p>With auditing capabilities of a marketing agency coupled with the fine-tuned roadmap of
-                                our creative team, we bring new consumer insight driven paths to clients. With an
-                                addition of quarterly events to bring you closer to B2B Leaders.</p>
-                        </Card>
-                    </Col>
-                    {/*<Col xs={24} lg={{span: 5}} className="card-wrapper">*/}
-                    {/*    <Card title="Lavon Restart" bordered={false} hoverable>*/}
-                    {/*        <p>We utilise resources to bring you a creative insight-driven branding that communicates*/}
-                    {/*            your value proposition through new brand elements. Creating a new chance to recapture*/}
-                    {/*            lost market share through the new value proposition.</p>*/}
-                    {/*        <p><strong>This may include:</strong> Brand Logo, Social Identity, Website, Internal*/}
-                    {/*            Messaging, and a new Brand Strategy. </p>*/}
-                    {/*    </Card>*/}
-                    {/*</Col>*/}
-                    <Col xs={24} lg={{span: 5}} className="card-wrapper">
-                        <Card title="Lavon Saver" bordered={false} hoverable>
-                            <p>Leveraging our skill sets bringing you a virtual team that capitalises on lost market
-                                share growth with a new shift towards strategically focused activities. Alleviating
-                                resources to allow you to shift towards training and bringing your team to a new
-                                level.</p>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col xs={24} lg={{span: 15}}>
-                        <UberButton to="/services" text="Explore all our services"/>
+                <Row gutter={16}>
+                    <Col xs={24} lg={15} className="cards-container">
+                        <Col xs={24} lg={8} className="card-wrapper">
+                            <Card title="Lavon Partnerships " bordered={false}>
+                                <p>With auditing capabilities of a marketing agency coupled with the fine-tuned roadmap
+                                    of our creative team, we bring new consumer insight driven paths to clients.</p>
+                                <UberButton to="/services/partnerships" text="Learn More"/>
+                            </Card>
+                        </Col>
+                        {/*<Col xs={24} lg={{span: 5}} className="card-wrapper">*/}
+                        {/*    <Card title="Lavon Restart" bordered={false}>*/}
+                        {/*        <p>We utilise resources to bring you a creative insight-driven branding that communicates*/}
+                        {/*            your value proposition through new brand elements. Creating a new chance to recapture*/}
+                        {/*            lost market share through the new value proposition.</p>*/}
+                        {/*        <p><strong>This may include:</strong> Brand Logo, Social Identity, Website, Internal*/}
+                        {/*            Messaging, and a new Brand Strategy. </p>*/}
+                        {/*    </Card>*/}
+                        {/*</Col>*/}
+                        <Col xs={24} lg={8} className="card-wrapper">
+                            <Card title="Cloud Management" bordered={false}>
+                                <p>A complete virtual management system that helps you create a leveraged position by
+                                    using our business resources against your competitors by focusing on day-to-day
+                                    operations.</p>
+                                <UberButton to="/services/cloud-management" text="Learn More"/>
+                            </Card>
+                        </Col>
                     </Col>
                 </Row>
+                {/*<Row>*/}
+                {/*    <Col xs={24} lg={{span: 15}}>*/}
+                {/*        <UberButton to="/services" text="Explore all our services"/>*/}
+                {/*    </Col>*/}
+                {/*</Row>*/}
             </div>
         );
     }
