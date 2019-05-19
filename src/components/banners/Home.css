@@ -1,7 +1,7 @@
 .home-banner {
     min-height: 80vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../media/images/banners/8.jpg") bottom no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../media/images/banners/home.jpg") bottom no-repeat fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -15,11 +15,11 @@
 }
 
 .home-banner .Cursor.Cursor--blinking{
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .home-banner img {
-    width: 10rem;
+    width: 15rem;
 }
 
 .home-banner h1, .home-banner img {
@@ -27,7 +27,7 @@
     line-height: 1.15;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     letter-spacing: .25rem;
     color: #fafafa;
 
@@ -41,7 +41,7 @@
 .home-banner span.subtitle {
     line-height: 1.68;
     letter-spacing: .25rem;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
 }
 
 .home-banner p {
@@ -50,6 +50,7 @@
     line-height: 2.4;
     margin: 20px 0 25px;
     color: inherit;
+    font-size: 1rem;
 }
 
 .home-banner .button {

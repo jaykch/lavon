@@ -90,6 +90,7 @@
 }
 
 .web-snippet .services div.service > .headline h3 > .anticon{
+    margin-left: .4rem;
     font-size: inherit;
 }
 
@@ -124,4 +125,61 @@
 
 .web-snippet .subtitle {
     display: block;
+}
+
+
+/*Animation Code*/
+
+.web-snippet .services div.service > .headline h3 > .anticon {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-0.3rem);
+        transform: translateY(-0.3rem);
+    }
+    60% {
+        -moz-transform: translateY(-0.15rem);
+        transform: translateY(-0.15rem);
+    }
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-0.3rem);
+        transform: translateY(-0.3rem);
+    }
+    60% {
+        -webkit-transform: translateY(-0.15rem);
+        transform: translateY(-0.15rem);
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-0.3rem);
+        -ms-transform: translateY(-0.3rem);
+        -webkit-transform: translateY(-0.3rem);
+        transform: translateY(-0.3rem);
+    }
+    60% {
+        -moz-transform: translateY(-0.15rem);
+        -ms-transform: translateY(-0.15rem);
+        -webkit-transform: translateY(-0.15rem);
+        transform: translateY(-0.15rem);
+    }
 }

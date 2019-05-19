@@ -18,7 +18,7 @@ const trackPage = (page) => {
 
 const Step = Steps.Step;
 const {Content} = Layout;
-const bannerText = "Leveraging our skill sets to bring you a virtual team to assist with your strategic activities; alleviating valuable hours for you to focus on daily operations.";
+const bannerText = "A complete virtual management system that helps you create a leveraged position by using our business resources against your competitors by focusing on day-to-day operations.";
 const text1 = "A two-hour consulting session, where you showcase your current operations for the first half, and the second half is focusing on evaluating and creating the foundation of the execution for your virtual management.";
 const text2 = "Consistently giving you a platform of communication and providing you insight on how your day-to-day operations need to go. Providing a roadmap that you can follow that prioritises your end user.  With the ability to get advice on how to proceed.";
 

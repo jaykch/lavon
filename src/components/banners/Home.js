@@ -12,9 +12,9 @@ class HomeBanner extends Component {
             <header>
                 <div className="home-banner">
                     <Row>
-                        <Col className="banner-content" xs={24} lg={{span: 16}}>
+                        <Col className="banner-content" xs={24} lg={{span: 20}}>
                             <img src={logo} alt="LAVON"/>
-                            <Typist><span className="subtitle">Concept to creation</span></Typist>
+                            <Typist><span className="subtitle">Concept to Creation</span></Typist>
                             <p>Exploring services that expand beyond industry standards by bringing more value for the
                                 right price.</p>
                             <PremiumButton to="/contact-us" text="Get In Touch"/>
