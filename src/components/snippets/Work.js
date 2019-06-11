@@ -11,13 +11,13 @@ class WorkSnippet extends Component {
                     <span className="subtitle">Delivering Perfection</span>
                     <hr/>
                     <div className="works-container">
-                        <a href="http://www.dynamechelectropower.com/" target="_blank" rel="noopener noreferrer"
+                        <a href="http://jovian-technologies.com/" target="_blank" rel="noopener noreferrer"
                            className="work-showcase">
-                            Dynamech
+                            VIP Rides
                         </a>
-                        <a href="http://eaglepizzas.com.au/" target="_blank" rel="noopener noreferrer"
+                        <a href="https://www.the16yearoldmaoriboy.co.nz/" target="_blank" rel="noopener noreferrer"
                            className="work-showcase">
-                            Eagle Pizza
+                            16yomb
                         </a>
                         <a href="http://www.dynopowersystems.com/" target="_blank" rel="noopener noreferrer"
                            className="work-showcase">
@@ -27,21 +27,17 @@ class WorkSnippet extends Component {
                            className="work-showcase">
                             Yugen
                         </a>
-                        <a href="https://www.the16yearoldmaoriboy.co.nz/" target="_blank" rel="noopener noreferrer"
-                           className="work-showcase">
-                            16yomb
-                        </a>
                         <a href="http://www.mukisports.com/" target="_blank" rel="noopener noreferrer"
                            className="work-showcase">
                             Muki
                         </a>
+                        <a href="http://www.dynamechelectropower.com/" target="_blank" rel="noopener noreferrer"
+                           className="work-showcase">
+                            Dynamech
+                        </a>
                         <a href="http://conferroheritae.com/" target="_blank" rel="noopener noreferrer"
                            className="work-showcase">
                             Conferro
-                        </a>
-                        <a href="https://www.xrpaustralia.com.au" target="_blank" rel="noopener noreferrer"
-                           className="work-showcase">
-                            XRP Au
                         </a>
                     </div>
                 </Col>
